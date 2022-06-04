@@ -1,0 +1,58 @@
+.header {
+    background-color: $header-bcgnd-color;
+    padding: 19px 0;
+
+    &__wrap {
+        @include flex(space-between, center);
+    }
+
+    &__left {
+        @include flex(center, center);
+
+        .logo__link {
+            margin-right: 41px;
+            cursor: pointer;
+        }
+    }
+
+    &__right {
+        position: relative;
+        z-index: 1;
+
+        .nav {
+            &_flex {
+                @include flex(center, center);
+            }
+
+            &__item {
+                display: inline-block;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 33px;
+                }
+
+                @import "_miniCart";
+            }
+        }
+    }
+}
+
+@media(max-width: 426px) {
+    .nav {
+        &_flex {
+            @include flex(center, center);
+        }
+
+        &__item {
+            margin: 0px;
+
+            .account__link {
+                display: none;
+            }
+        }
+    }
+}

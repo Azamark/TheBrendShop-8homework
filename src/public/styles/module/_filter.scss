@@ -1,0 +1,45 @@
+.filters {
+    &--flex {
+        @include flex(center, center);
+    }
+
+    padding: 15px 0;
+
+    .check-filter {
+        position: relative;
+
+        & details {
+            @include text-decor(400, 17px, 19px, #6f6e6e);
+
+            &[open] {
+                & summary {
+                    color: $hover-color;
+                }
+
+                & svg {
+                    fill: $hover-color;
+                }
+            }
+
+            & summary {
+                display: block;
+                list-style: none;
+
+                & svg {
+                    margin-left: 11px;
+                    fill: #6f6e6e;
+                }
+            }
+
+            .check-list {
+                position: absolute;
+                z-index: 4;
+                margin-top: 5px;
+
+                & input {
+                    margin-right: 9px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+.product-page {
+    &--box {
+        margin-bottom: 10px;
+    }
+
+    &__header {
+        background-color: $product-bcgnd-color;
+
+        &--flex {
+            @include flex(space-between, center);
+
+            h1 {
+                @include text-decor(400, 24px, 29px, #F16D7F);
+                padding: 60px 0;
+            }
+        }
+    }
+
+    &__body {
+
+        &--flex {
+            @include flex(center, center, column);
+        }
+    }
+
+    &__img {
+        max-width: 450px;
+        min-height: 500px;
+        border: 2px solid $product-bcgnd-color;
+    }
+
+    &__desc {
+        border: 1px solid #EAEAEA;
+        background-color: white;
+
+        &--flex {
+            @include flex(center, center, column);
+
+            h2 {
+                @include text-decor(400, 19px, 22px, #F16D7F);
+                margin-top: 64px;
+                margin-bottom: 12px;
+            }
+
+            .line__red {
+                border: 1.5px solid #F16D7F;
+                background-color: #F16D7F;
+                width: 63px;
+                margin-bottom: 50px;
+            }
+
+            & h3 {
+                margin-top: 12px;
+                margin-bottom: 48px;
+                font-size: 18px;
+                line-height: 22px;
+                color: #4D4D4D;
+            }
+
+            & p {
+                margin-top: 0 auto;
+                width: 565px;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: #5E5E5E;
+            }
+
+            & strong {
+                margin-top: 32px;
+                margin-bottom: 64px;
+                font-size: 24px;
+                line-height: 29px;
+                color: #EF5B70;
+            }
+
+            .line__grey {
+                border: 1.5px solid #EAEAEA;
+                background-color: #EAEAEA;
+                width: 642px;
+                margin-bottom: 64px;
+            }
+
+            .add__btn--red {
+                margin-bottom: 64px;
+
+                button {
+                    border: 1px solid #F16D7F;
+                }
+
+                svg {
+                    fill: #F16D7F;
+                }
+
+                span {
+                    @include text-decor(400, 14px, 17px, #F16D7F);
+                }
+            }
+        }
+    }
+}

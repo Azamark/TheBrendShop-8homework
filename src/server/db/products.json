@@ -1,0 +1,44 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Jacket white",
+    "price": 336,
+    "category": "Men",
+    "img": "Jacket-white-Men.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Hat red",
+    "price": 116,
+    "category": "Men",
+    "img": "Hat-red-Men.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Jacket white",
+    "price": 386,
+    "category": "Women",
+    "img": "Jacket-white-Women.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Shirt black",
+    "price": 336,
+    "category": "Women",
+    "img": "Shirt-black-Women.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "Sneakers blue",
+    "price": 237,
+    "category": "Kids",
+    "img": "Sneakers-blue-Kids.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "T-shirt green",
+    "price": 570,
+    "category": "Kids",
+    "img": "T-shirt-green-Kids.jpg"
+  }
+]

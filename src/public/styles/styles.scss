@@ -1,0 +1,57 @@
+@import "module/var";
+@import "module/mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    @include flex-init(column);
+}
+
+.wrapper__top {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: $container-max-width;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+a:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+button:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+label:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.search-input {
+    width: 100%;
+    border: 1px solid teal;
+    padding: 10px 15px;
+    margin-left: 10px
+}
+
+@import "module/addBtn";
+@import "module/product";
+@import "module/cartItem";
+@import "module/filter";
+@import "module/header";
+@import "module/catalog";
+@import "module/cart";
+@import "module/productPage";
+@import "module/footer";

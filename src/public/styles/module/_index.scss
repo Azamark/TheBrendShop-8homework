@@ -1,0 +1,35 @@
+.promo {
+    height: calc(100vh - 80px);
+    background-color: $promo-bcgnd-color;
+
+    &_flex {
+        height: 100%;
+        @include flex(flex-end, center);
+    }
+
+    &__bckgnd {
+        background-image: url('../assets/IndexHeaderBckgnd.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: -40% bottom;
+    }
+
+    &__title {
+        padding-left: 16px;
+        border-left: 12px solid #F16D7F;
+        max-width: 420px;
+
+        h1 {
+            @include text-decor(900, 48px, 58px, #222222);
+        }
+
+        p {
+            @include text-decor(700, 32px, 38px, #222222);
+
+            span {
+                @include text-decor(700, 32px, 38px, $span-color);
+            }
+        }
+
+    }
+}

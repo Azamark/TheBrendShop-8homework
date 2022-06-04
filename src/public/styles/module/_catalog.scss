@@ -1,0 +1,26 @@
+.catalog {
+    &__header {
+        background-color: $product-bcgnd-color;
+
+        &--flex {
+            @include flex(space-between, center);
+
+            h1 {
+                @include text-decor(400, 24px, 29px, #F16D7F);
+                padding: 60px 0;
+            }
+        }
+    }
+}
+
+
+
+.products-list {
+    &__wrap {
+        margin-top: 64px;
+        margin-bottom: 48px;
+
+        @include flex(center, center, initial, wrap);
+        gap: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "quantity": 1,
+        "id_product": 1,
+        "product_name": "Jacket white",
+        "price": 336,
+        "category": "Men",
+        "img": "Jacket-white-Men.jpg"
+    },
+    {
+        "quantity": 1,
+        "id_product": 2,
+        "product_name": "Hat red",
+        "price": 116,
+        "category": "Men",
+        "img": "Hat-red-Men.jpg"
+    }
+]
