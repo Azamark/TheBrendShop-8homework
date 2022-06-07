@@ -36,37 +36,29 @@
 <script>
 import { mapActions } from 'vuex'
 export default {
-  props: {
-      cartItem: {
-          type: Object,
-          required: true,
-      }
-  },
-  data(){
-      return {
-          
-      }
-  },
-  methods: {
-      ...mapActions({
-          GET_PRODUCT: 'catalog/GET_PRODUCT',
-      }),
-      decrementItem() {
-          this.$emit('decrement')
-      },
-      incrementItem() {
-          this.$emit('increment')
-      },
-      deleteItem(){
-          this.$emit('delete');
-      },
-      goToProduct(){
-          this.GET_PRODUCT(this.cartItem);
-          this.$router.push(`/product/${this.cartItem.id_product}`);
-      }
-  },
-  mounted() {
-      
-  }
+    props: {
+        cartItem: {
+            type: Object,
+            required: true,
+        }
+    },
+    methods: {
+        ...mapActions({
+            GET_PRODUCT: 'catalog/GET_PRODUCT',
+        }),
+        decrementItem() {
+            this.$emit('decrement')
+        },
+        incrementItem() {
+            this.$emit('increment')
+        },
+        deleteItem(){
+            this.$emit('delete');
+        },
+        goToProduct(){
+            this.GET_PRODUCT(this.cartItem);
+            this.$router.push(`/product/${this.cartItem.id_product}`);
+        }
+    }
 }
 </script>

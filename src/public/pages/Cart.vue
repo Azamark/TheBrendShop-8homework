@@ -1,4 +1,9 @@
 <template>
+    <my-order-form
+        v-model:show="isShowOrderForm"
+        :cartData = "cart"
+        @submitOrder="sendOrder"
+    />
     <section class="cart">
         <header class="cart__header">
             <div class="cart__header--flex container">
@@ -22,16 +27,11 @@
                             </div>
                         </div>
                         <div class="cart__items-btns">
+                            <button @click="showOrderForm">Оформить заказ</button>
                             <button @click="$router.push('/')">Продолжить покупки</button>
                             <button @click.stop="clear">Отчистить корзину</button>
                         </div>
                 </div>
-                <!-- <div class="shopform shopform--flex">
-                    <h2>Форма заказа</h2>
-                    <my-order-form
-                        @prepOrder="sendOrder"
-                    />
-                </div> -->
             </div>
         </div>
     </section>
@@ -39,43 +39,60 @@
 
 <script>
 import CartItem from '../components/CartItem.vue'
-//import MyOrderForm from '../components/MyOrderForm.vue'
+import MyOrderForm from '../components/MyOrderForm.vue'
 import { mapActions, mapGetters } from 'vuex'
 
 export default {
-    components: {CartItem},
+    components: { CartItem, MyOrderForm },
     data() {
         return {
-            
+            isShowOrderForm: false,
+            urlCart: '/api/cart/',
+            urlOrder: '/api/orders/',
         }
-    },
-    props: {    
-      cartData: {
-          type: Array,
-          required: true,
-      }
     },
     methods: {
         ...mapActions({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART',
-            REMOVE_PRODUCT_FROM_CART: 'REMOVE_PRODUCT_FROM_CART',
-            DELETE_PRODUCT_FROM_CART: 'DELETE_PRODUCT_FROM_CART',
-            CLEAR_CART: 'CLEAR_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
         delItem(cartItem){
-            this.DELETE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'delete',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         increment(cartItem) {
-            this.ADD_PRODUCT_TO_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         remove(cartItem) {
-            this.REMOVE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'remove',
+                data: cartItem,
+                url: `${this.urlCart}`
+            });
         },
         clear() {
-            this.CLEAR_CART();
+            this.BUILD_ACT_DESC({
+                action: 'clear',
+                data: null,
+                url: `${this.urlCart}`,
+            });
         },
         sendOrder(data) {
-            console.log(data)
+            data.items = this.cart;
+            this.BUILD_ACT_DESC({
+                action: 'submit',
+                data: data,
+                url: `${this.urlOrder}`
+            });
+        },
+        showOrderForm() {
+            this.isShowOrderForm = !this.isShowOrderForm;
         }
     },
     computed: {

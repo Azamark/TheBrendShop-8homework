@@ -36,28 +36,17 @@ export default {
             required: true,
         }
     },
-  data() {
-    return {
-        
+    methods: {
+        ...mapActions({
+            GET_PRODUCT: 'catalog/GET_PRODUCT',
+        }), 
+        addToCart() {
+            this.$emit('addToCart', this.product)
+        },
+        goToProduct() {
+            this.GET_PRODUCT(this.product);
+            this.$router.push(`/product/${this.product.id_product}`);
+        }
     }
-  },
-  methods: {
-      ...mapActions({
-          GET_PRODUCT: 'catalog/GET_PRODUCT',
-      }), 
-      addToCart() {
-          this.$emit('addToCart', this.product)
-      },
-      goToProduct() {
-          this.GET_PRODUCT(this.product);
-          this.$router.push(`/product/${this.product.id_product}`);
-      }
-  },
-  mounted() {
-      
-  },
-  computed: {
-
-  }
 };
 </script>

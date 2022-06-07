@@ -1,13 +1,4 @@
 export const apiModule = {
-    state: () => ({
-
-    }),
-    getters: {
-
-    },
-    mutations: {
-
-    },
     actions: {
         GET_JSON({ satet, commit }, url = '') {
             return fetch(url)
@@ -15,27 +6,28 @@ export const apiModule = {
                 .catch(e => console.log(e))
         },
         POST_JSON({ satet, commit }, data) {
-            return fetch('/api/cart', {
+            console.log(data)
+            return fetch(data.url, {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify(data.data)
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
         PUT_JSON({ satet, commit }, data) {
-            return fetch(`/api/cart/${data.id}`, {
+            return fetch(data.url + `${data.id}`, {
                 method: 'PUT',
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify(data.quantity)
+                body: JSON.stringify(data.data)
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
         DELETE_JSON({ satet, commit }, data) {
-            return fetch(`/api/cart/${data.id}`, {
+            return fetch(data.url + `${data.id}`, {
                 method: 'DELETE',
                 headers: {
                     "Content-Type": "application/json"
@@ -43,8 +35,8 @@ export const apiModule = {
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
-        CLEAR_JSON({ satet, commit }, url = '/api/cart/') {
-            return fetch(url, {
+        CLEAR_JSON({ satet, commit }, data) {
+            return fetch(data.url, {
                 method: 'DELETE',
                 headers: {
                     "Content-Type": "application/json"

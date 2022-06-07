@@ -15,16 +15,13 @@ import MyHeader from './components/MyHeader.vue'
 import MyFooter from './components/MyFooter.vue'
 import { mapActions } from 'vuex'
 export default {
-    components: {MyHeader, MyFooter},
+    components: { MyHeader, MyFooter },
     methods: {
         ...mapActions({
             GET_JSON: 'api/GET_JSON',
             GET_PRODUCTS: 'catalog/GET_PRODUCTS',
             GET_CART: 'cart/GET_CART'
         }),
-    },
-    computed: {
-
     },
     mounted() {
         this.GET_JSON('/api/products')

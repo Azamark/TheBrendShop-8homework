@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "quantity": 1,
+        "id_product": 2,
+        "product_name": "Hat red",
+        "price": 116,
+        "category": "Men",
+        "img": "Hat-red-Men.jpg"
+    },
+    {
+        "quantity": 3,
+        "id_product": 6,
+        "product_name": "T-shirt green",
+        "price": 570,
+        "category": "Kids",
+        "img": "T-shirt-green-Kids.jpg"
+    },
+    {
+        "quantity": 3,
+        "id_product": 5,
+        "product_name": "Sneakers blue",
+        "price": 237,
+        "category": "Kids",
+        "img": "Sneakers-blue-Kids.jpg"
+    }
+]

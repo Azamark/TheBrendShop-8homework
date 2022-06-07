@@ -29,11 +29,6 @@ export default {
         MyInput,
         MyFilter
     },
-    data() {
-        return {
-            
-        }
-    },
     methods: {
         ...mapActions({
             ADD_CATEGORIES: 'catalog/ADD_CATEGORIES',
