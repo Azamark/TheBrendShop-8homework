@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div 
+        <div
+        class="cart__table" 
         v-if="show"
-        @click="hideCartMini" 
-        class="cart__table">
+        @click="hide" >
                 <div class="cart__top cart__top--flex">
                     <cart-item
                         v-for="cartItem in cartData"
@@ -39,7 +39,7 @@ export default {
     components: {CartItem},
     data() {
         return {
-
+            urlCart: '/api/cart/'
         }
     },
     props: { 
@@ -54,28 +54,37 @@ export default {
     },
     methods: {
         ...mapActions({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART',
-            REMOVE_PRODUCT_FROM_CART: 'REMOVE_PRODUCT_FROM_CART',
-            DELETE_PRODUCT_FROM_CART: 'DELETE_PRODUCT_FROM_CART',
-            CLEAR_CART: 'CLEAR_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
-       delItem(cartItem){
-            this.DELETE_PRODUCT_FROM_CART(cartItem);
+        delItem(cartItem){
+            this.BUILD_ACT_DESC({
+                action: 'delete',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         increment(cartItem) {
-            this.ADD_PRODUCT_TO_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         remove(cartItem) {
-            this.REMOVE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'remove',
+                data: cartItem,
+                url: `${this.urlCart}`
+            });
         },
-        hideCartMini() {
+        hide() {
             this.$emit("update:show", false);
         }
     },
     computed: {
        ...mapGetters({
             cartTotalCost: 'cart/cartTotalCost',
-            cartTotalCnt: 'cart/cartTotalCnt'
+            cartTotalCnt: 'cart/cartTotalCnt',
         })
     }
 }

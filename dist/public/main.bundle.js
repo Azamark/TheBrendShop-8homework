@@ -11971,7 +11971,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Lato\", sans-serif;\n}\n\n.wrapper {\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n}\n\n.wrapper__top {\n  flex-grow: 1;\n}\n\n.container {\n  max-width: 1160px;\n  padding: 0 10px;\n  margin: 0 auto;\n}\n\na:hover {\n  transition: 0.3s;\n  transform: scale(1.1);\n}\n\nbutton:hover {\n  transition: 0.3s;\n  cursor: pointer;\n  transform: scale(1.1);\n}\n\nlabel:hover {\n  cursor: pointer;\n  transform: scale(1.1);\n}\n\n.search-input {\n  width: 100%;\n  border: 1px solid teal;\n  padding: 10px 15px;\n  margin-left: 10px;\n}\n\n.add__btn {\n  background: none;\n  padding: 11px 16px 9px 14px;\n}\n.add__btn--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.add__btn--flex span {\n  margin-left: 11px;\n}\n\n.product {\n  width: 360px;\n  position: relative;\n  background: #F8F8F8;\n  box-sizing: border-box;\n  overflow: hidden;\n  transition: 0.5s;\n}\n.product img {\n  width: 360px;\n  height: 420px;\n}\n.product:hover {\n  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);\n}\n.product:hover .product__overlay {\n  opacity: 1;\n}\n.product__overlay--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product__overlay {\n  position: absolute;\n  top: 0;\n  right: 0;\n  left: 0;\n  height: 420px;\n  background: rgba(58, 56, 56, 0.86);\n  opacity: 0;\n  transition: 0.5s;\n}\n.product__overlay .overlay {\n  margin-bottom: 5px;\n}\n.product__overlay .overlay .add__btn--grey button {\n  border: 1px solid white;\n}\n.product__overlay .overlay .add__btn--grey svg {\n  fill: white;\n}\n.product__overlay .overlay .add__btn--grey span {\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.product__container {\n  box-sizing: border-box;\n  margin-top: 25px;\n  padding: 0 28.8px 20px 18px;\n}\n.product__container h3 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: black;\n  cursor: pointer;\n}\n.product__container h3:hover {\n  color: #F16D7F;\n}\n.product__container p {\n  font-weight: 300;\n  font-size: 14px;\n  line-height: 17px;\n  color: #5D5D5D;\n  margin-top: 13px;\n  margin-bottom: 18px;\n}\n.product__container strong {\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 19px;\n  color: #F16D7F;\n}\n\n.cart-item {\n  display: flex;\n  box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);\n  padding: 7px;\n}\n.cart-item img {\n  max-width: 100px;\n}\n.cart-item__desc {\n  width: 100%;\n  margin: 12px 12px 0 21px;\n}\n.cart-item__header {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.cart-item__header h3 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: black;\n  cursor: pointer;\n}\n.cart-item__header h3:hover {\n  color: #F16D7F;\n}\n.cart-item__header .button-del {\n  border: none;\n  background: none;\n}\n.cart-item__header .button-del span {\n  color: rgb(143, 25, 25);\n}\n.cart-item__body {\n  margin-top: 20px;\n}\n.cart-item__body--grid {\n  display: grid;\n  justify-content: center;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 5px;\n  border-bottom: 1px solid #ebebeb;\n}\n.cart-item__body--grid .item-quantity {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.cart-item__body--grid .item-quantity .quantity__btn {\n  padding: 3px 3px;\n  border: none;\n  background: none;\n  cursor: pointer;\n}\n\n.filters {\n  padding: 15px 0;\n}\n.filters--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.filters .check-filter {\n  position: relative;\n}\n.filters .check-filter details {\n  font-weight: 400;\n  font-size: 17px;\n  line-height: 19px;\n  color: #6f6e6e;\n}\n.filters .check-filter details[open] summary {\n  color: #F16D7F;\n}\n.filters .check-filter details[open] svg {\n  fill: #F16D7F;\n}\n.filters .check-filter details summary {\n  display: block;\n  list-style: none;\n}\n.filters .check-filter details summary svg {\n  margin-left: 11px;\n  fill: #6f6e6e;\n}\n.filters .check-filter details .check-list {\n  position: absolute;\n  z-index: 4;\n  margin-top: 5px;\n}\n.filters .check-filter details .check-list input {\n  margin-right: 9px;\n}\n\n.header {\n  background-color: #222222;\n  padding: 19px 0;\n}\n.header__wrap {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__left {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__left .logo__link {\n  margin-right: 41px;\n  cursor: pointer;\n}\n.header__right {\n  position: relative;\n  z-index: 1;\n}\n.header__right .nav_flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__right .nav__item {\n  display: inline-block;\n}\n.header__right .nav__item:hover {\n  cursor: pointer;\n}\n.header__right .nav__item:not(:last-child) {\n  margin-right: 33px;\n}\n.header__right .nav__item .cart__table {\n  z-index: 2;\n  width: 520px;\n  box-sizing: border-box;\n  right: 0;\n  position: absolute;\n  padding: 15px;\n  background: #FFFFFF;\n  border-radius: 5px;\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);\n}\n.header__right .nav__item .cart__table .cart__top--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  gap: 5px;\n}\n.header__right .nav__item .cart__table .cart__bottom {\n  padding-top: 10px;\n}\n.header__right .nav__item .cart__table .cart__bottom--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n  gap: 20px;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link {\n  border: 1px solid #22222E;\n  padding: 10px 15px;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link_flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link_flex p {\n  text-align: center;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 19px;\n  color: #22222E;\n}\n.header__right .nav__item .counter {\n  position: absolute;\n  z-index: 2;\n  top: -20%;\n  right: -5%;\n  border-radius: 200px;\n  background: #F16D7F;\n  height: 19px;\n  width: 19px;\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  font-weight: 400;\n  font-size: 12px;\n  line-height: 14px;\n  color: #FFFFFF;\n}\n@media (max-width: 426px) {\n  .header__right .nav__item .cart {\n    display: none;\n  }\n  .header__right .nav__item .quant {\n    display: none;\n  }\n}\n\n@media (max-width: 426px) {\n  .nav_flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .nav__item {\n    margin: 0px;\n  }\n  .nav__item .account__link {\n    display: none;\n  }\n}\n.catalog__header {\n  background-color: #F8F8F8;\n}\n.catalog__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.catalog__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n\n.products-list__wrap {\n  margin-top: 64px;\n  margin-bottom: 48px;\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 30px;\n}\n\n.cart__header {\n  background-color: #F8F8F8;\n}\n.cart__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.cart__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n.cart__main {\n  padding: 40px 0;\n}\n.cart__main--flex {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.cart__main--flex .cart__items-btns {\n  margin: 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.cart__main--flex .cart__items-btns button {\n  background: #F8F8F8;\n  border: 1px solid rgba(51, 46, 46, 0.438);\n  box-sizing: border-box;\n  padding: 16px 40px;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: black;\n}\n.cart__main--flex .cart__items-btns button:hover {\n  border: 1px solid #F16D7F;\n  background: #F16D7F;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.cart__main--flex .cart__items {\n  width: 70%;\n}\n.cart__main--flex .cart__items--flex {\n  display: flex;\n  flex-direction: column;\n  gap: 30px;\n}\n\n.product-page--box {\n  margin-bottom: 10px;\n}\n.product-page__header {\n  background-color: #F8F8F8;\n}\n.product-page__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n.product-page__body--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__img {\n  max-width: 450px;\n  min-height: 500px;\n  border: 2px solid #F8F8F8;\n}\n.product-page__desc {\n  border: 1px solid #EAEAEA;\n  background-color: white;\n}\n.product-page__desc--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__desc--flex h2 {\n  font-weight: 400;\n  font-size: 19px;\n  line-height: 22px;\n  color: #F16D7F;\n  margin-top: 64px;\n  margin-bottom: 12px;\n}\n.product-page__desc--flex .line__red {\n  border: 1.5px solid #F16D7F;\n  background-color: #F16D7F;\n  width: 63px;\n  margin-bottom: 50px;\n}\n.product-page__desc--flex h3 {\n  margin-top: 12px;\n  margin-bottom: 48px;\n  font-size: 18px;\n  line-height: 22px;\n  color: #4D4D4D;\n}\n.product-page__desc--flex p {\n  margin-top: 0 auto;\n  width: 565px;\n  font-size: 14px;\n  line-height: 17px;\n  text-align: center;\n  color: #5E5E5E;\n}\n.product-page__desc--flex strong {\n  margin-top: 32px;\n  margin-bottom: 64px;\n  font-size: 24px;\n  line-height: 29px;\n  color: #EF5B70;\n}\n.product-page__desc--flex .line__grey {\n  border: 1.5px solid #EAEAEA;\n  background-color: #EAEAEA;\n  width: 642px;\n  margin-bottom: 64px;\n}\n.product-page__desc--flex .add__btn--red {\n  margin-bottom: 64px;\n}\n.product-page__desc--flex .add__btn--red button {\n  border: 1px solid #F16D7F;\n}\n.product-page__desc--flex .add__btn--red svg {\n  fill: #F16D7F;\n}\n.product-page__desc--flex .add__btn--red span {\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: #F16D7F;\n}\n\n.footer__top {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 100% 100%;\n  min-height: 448px;\n}\n.footer__top--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__comment {\n  margin-top: 97px;\n  max-width: 360px;\n}\n.footer__comment--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__comment--flex img {\n  margin-bottom: 30px;\n}\n.footer__comment--flex p {\n  font-weight: 400;\n  font-size: 20px;\n  line-height: 24px;\n  color: #222224;\n  text-align: center;\n}\n.footer__subscribe {\n  margin-top: 150px;\n}\n.footer__subscribe--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__subscribe--flex h3 {\n  font-weight: 700;\n  font-size: 24px;\n  line-height: 167.2%;\n  color: #222224;\n  text-align: center;\n}\n.footer__subscribe--flex p {\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 167.2%;\n  color: #222224;\n  text-align: center;\n  margin-bottom: 32px;\n}\n.footer__subscribe--flex .subscribe__form--flex {\n  display: flex;\n}\n.footer__subscribe--flex .subscribe__form--flex input {\n  padding-left: 22px;\n  background: #E1E1E1;\n  box-sizing: border-box;\n  border: 1px solid #E1E1E1;\n  border-radius: 15px 0 0 15px;\n  height: 49px;\n  width: 256px;\n}\n.footer__subscribe--flex .subscribe__form--flex button {\n  height: 49px;\n  width: 100px;\n  background: #F16D7F;\n  border: 1px solid #F16D7F;\n  box-sizing: border-box;\n  border-radius: 0 15px 15px 0;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.footer__bottom {\n  background-color: #222224;\n  min-height: 79px;\n}\n.footer__bottom--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .rights-reserved {\n  margin-top: 30px;\n}\n.footer__bottom--flex .rights-reserved p {\n  font-size: 16px;\n  line-height: 19px;\n  color: #FBFBFB;\n}\n.footer__bottom--flex .social-networks {\n  margin-top: 24px;\n}\n.footer__bottom--flex .social-networks--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .social-networks__link {\n  text-decoration: none;\n  width: 32px;\n  height: 32px;\n  background-color: #FFFFFF;\n}\n.footer__bottom--flex .social-networks__link--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .social-networks__link--flex .network-icon {\n  fill: black;\n}\n.footer__bottom--flex .social-networks__link--flex:not(:last-child) {\n  margin-right: 7px;\n}\n.footer__bottom--flex .social-networks__link--flex:hover {\n  background: #F16D7F;\n}\n.footer__bottom--flex .social-networks__link--flex:hover .network-icon {\n  fill: white;\n}\n\n@media (max-width: 768px) {\n  .footer__top {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 448px;\n  }\n  .footer__top--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__comment {\n    margin-top: 64px;\n    max-width: 360px;\n  }\n  .footer__comment--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__comment--flex img {\n    margin-bottom: 30px;\n  }\n  .footer__comment--flex p {\n    font-weight: 400;\n    font-size: 20px;\n    line-height: 24px;\n    color: #222224;\n    text-align: center;\n  }\n  .footer__subscribe {\n    margin-top: 48px;\n    margin-bottom: 140px;\n  }\n  .footer__subscribe--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__subscribe--flex h3 {\n    font-weight: 700;\n    font-size: 24px;\n    line-height: 167.2%;\n    color: #222224;\n    text-align: center;\n  }\n  .footer__subscribe--flex p {\n    font-weight: 400;\n    font-size: 18px;\n    line-height: 167.2%;\n    color: #222224;\n    text-align: center;\n    margin-bottom: 32px;\n  }\n  .footer__subscribe--flex .subscribe__form--flex {\n    display: flex;\n  }\n  .footer__subscribe--flex .subscribe__form--flex input {\n    padding-left: 22px;\n    background: #E1E1E1;\n    box-sizing: border-box;\n    border: 1px solid #E1E1E1;\n    border-radius: 15px 0 0 15px;\n    height: 49px;\n    width: 256px;\n  }\n  .footer__subscribe--flex .subscribe__form--flex button {\n    height: 49px;\n    width: 100px;\n    background: #F16D7F;\n    border: 1px solid #F16D7F;\n    box-sizing: border-box;\n    border-radius: 0 15px 15px 0;\n    font-size: 14px;\n    line-height: 17px;\n    color: white;\n  }\n}\n@media (max-width: 426px) {\n  .footer__subscribe {\n    margin-top: 48px;\n    margin-bottom: 109px;\n  }\n  .footer .footer__bottom {\n    background-color: #222224;\n    min-height: 143px;\n  }\n  .footer .footer__bottom--flex {\n    display: flex;\n    flex-direction: column-reverse;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .rights-reserved {\n    margin-top: 30px;\n  }\n  .footer .footer__bottom--flex .rights-reserved p {\n    font-size: 16px;\n    line-height: 19px;\n    color: #FBFBFB;\n  }\n  .footer .footer__bottom--flex .social-networks {\n    margin-top: 24px;\n  }\n  .footer .footer__bottom--flex .social-networks--flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .social-networks__link {\n    text-decoration: none;\n    width: 32px;\n    height: 32px;\n    background-color: #FFFFFF;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex .network-icon {\n    fill: black;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:not(:last-child) {\n    margin-right: 7px;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:hover {\n    background: #F16D7F;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:hover .network-icon {\n    fill: white;\n  }\n}", "",{"version":3,"sources":["webpack://./src/public/styles/styles.scss","webpack://./src/public/styles/module/_mixin.scss","webpack://./src/public/styles/module/_var.scss","webpack://./src/public/styles/module/_addBtn.scss","webpack://./src/public/styles/module/_product.scss","webpack://./src/public/styles/module/_cartItem.scss","webpack://./src/public/styles/module/_filter.scss","webpack://./src/public/styles/module/_header.scss","webpack://./src/public/styles/module/_miniCart.scss","webpack://./src/public/styles/module/_catalog.scss","webpack://./src/public/styles/module/_cart.scss","webpack://./src/public/styles/module/_productPage.scss","webpack://./src/public/styles/module/_footer.scss"],"names":[],"mappings":"AAGA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,+BAAA;AAFJ;;AAKA;EACI,iBAAA;ECVA,aAAA;EACA,sBDUmB;AADvB;;AAIA;EACI,YAAA;AADJ;;AAIA;EACI,iBEpBkB;EFqBlB,eAAA;EACA,cAAA;AADJ;;AAIA;EACI,gBAAA;EACA,qBAAA;AADJ;;AAIA;EACI,gBAAA;EACA,eAAA;EACA,qBAAA;AADJ;;AAIA;EACI,eAAA;EACA,qBAAA;AADJ;;AAIA;EACI,WAAA;EACA,sBAAA;EACA,kBAAA;EACA,iBAAA;AADJ;;AG5CA;EACI,gBAAA;EACA,2BAAA;AH+CJ;AG7CI;EFHA,aAAA;EACA,uBAYyD;EARzD,uBEDkB;EFElB,mBEF0B;EFM1B,iBAG8E;AD0ClF;AGjDQ;EACI,iBAAA;AHmDZ;;AI3DA;EACI,YAAA;EACA,kBAAA;EACA,mBFCkB;EEAlB,sBAAA;EACA,gBAAA;EACA,gBAAA;AJ8DJ;AI5DI;EACI,YAAA;EACA,aAAA;AJ8DR;AI3DI;EACI,2CAAA;AJ6DR;AI3DQ;EACI,UAAA;AJ6DZ;AIzDI;EHpBA,aAAA;EACA,uBAYyD;EARzD,uBGgBkB;EHflB,mBGe0B;EHX1B,iBAG8E;ADuElF;AI5DI;EACI,kBAAA;EACA,MAAA;EACA,QAAA;EACA,OAAA;EACA,aAAA;EACA,kCAAA;EACA,UAAA;EACA,gBAAA;AJ8DR;AI5DQ;EACI,kBAAA;AJ8DZ;AI3DgB;EACI,uBAAA;AJ6DpB;AI1DgB;EACI,WAAA;AJ4DpB;AIzDgB;EH1BZ,gBG2BoC;EH1BpC,eG0ByC;EHzBzC,iBGyB+C;EHxB/C,YGwBqD;AJ8DzD;AIxDI;EACI,sBAAA;EACA,gBAAA;EACA,2BAAA;AJ0DR;AIxDQ;EHtCJ,gBGuC4B;EHtC5B,eGsCiC;EHrCjC,iBGqCuC;EHpCvC,YGoC6C;EACrC,eAAA;AJ6DZ;AI3DY;EACI,cFvDF;AFoHd;AIzDQ;EH/CJ,gBGgD4B;EH/C5B,eG+CiC;EH9CjC,iBG8CuC;EH7CvC,cG6C6C;EACrC,gBAAA;EACA,mBAAA;AJ8DZ;AI3DQ;EHrDJ,gBGsD4B;EHrD5B,eGqDiC;EHpDjC,iBGoDuC;EHnDvC,cCjBU;AFoId;;AK3IA;EACI,aAAA;EACA,8CAAA;EACA,YAAA;AL8IJ;AK5II;EACI,gBAAA;AL8IR;AK3II;EACI,WAAA;EACA,wBAAA;AL6IR;AK1II;EJbA,aAAA;EACA,uBAYyD;EARzD,8BISkB;EJRlB,mBIQiC;EJJjC,iBAG8E;ADiJlF;AK9IQ;EJIJ,gBIH4B;EJI5B,eIJiC;EJKjC,iBILuC;EJMvC,YIN6C;EACrC,eAAA;ALmJZ;AKjJY;EACI,cHbF;AFgKd;AK/IQ;EACI,YAAA;EACA,gBAAA;ALiJZ;AK/IY;EACI,uBAAA;ALiJhB;AK5II;EACI,gBAAA;AL8IR;AK5IQ;EACI,aAAA;EACA,uBAAA;EACA,qCAAA;EACA,aAAA;EACA,gCAAA;AL8IZ;AK5IY;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;AL8IhB;AK5IgB;EACI,gBAAA;EACA,YAAA;EACA,gBAAA;EACA,eAAA;AL8IpB;;AMrMA;EAKI,eAAA;ANoMJ;AMxMI;ELAA,aAAA;EACA,uBAYyD;EARzD,uBKJkB;ELKlB,mBKL0B;ELS1B,iBAG8E;ADkMlF;AMzMI;EACI,kBAAA;AN2MR;AMzMQ;ELWJ,gBKV4B;ELW5B,eKXiC;ELYjC,iBKZuC;ELavC,cKb6C;AN8MjD;AM3MgB;EACI,cJNN;AFmNd;AM1MgB;EACI,aJVN;AFsNd;AMxMY;EACI,cAAA;EACA,gBAAA;AN0MhB;AMxMgB;EACI,iBAAA;EACA,aAAA;AN0MpB;AMtMY;EACI,kBAAA;EACA,UAAA;EACA,eAAA;ANwMhB;AMtMgB;EACI,iBAAA;ANwMpB;;AO/OA;EACI,yBLCiB;EKAjB,eAAA;APkPJ;AOhPI;ENHA,aAAA;EACA,uBAYyD;EARzD,8BMDkB;ENElB,mBMFiC;ENMjC,iBAG8E;AD6OlF;AOnPI;ENPA,aAAA;EACA,uBAYyD;EARzD,uBMGkB;ENFlB,mBME0B;ENE1B,iBAG8E;ADoPlF;AOvPQ;EACI,kBAAA;EACA,eAAA;APyPZ;AOrPI;EACI,kBAAA;EACA,UAAA;APuPR;AOpPY;ENrBR,aAAA;EACA,uBAYyD;EARzD,uBMiB0B;ENhB1B,mBMgBkC;ENZlC,iBAG8E;ADmQlF;AOvPY;EACI,qBAAA;APyPhB;AOvPgB;EACI,eAAA;APyPpB;AOtPgB;EACI,kBAAA;APwPpB;AQxRI;EACI,UAAA;EACA,YAAA;EACA,sBAAA;EACA,QAAA;EACA,kBAAA;EACA,aAAA;EAEA,mBAAA;EACA,kBAAA;EACA,uCAAA;ARyRR;AQtRY;EPdR,aAAA;EACA,sBOc0C;EPV1C,uBOU0B;EPT1B,mBOSkC;EPLlC,iBAG8E;EOGlE,QAAA;AR4RhB;AQxRQ;EACI,iBAAA;AR0RZ;AQxRY;EPvBR,aAAA;EACA,uBAYyD;EARzD,8BOmB0B;EPlB1B,mBOkByC;EPdzC,iBAG8E;EOYlE,SAAA;AR8RhB;AQ3RY;EACI,yBAAA;EACA,kBAAA;AR6RhB;AQ3RgB;EPhCZ,aAAA;EACA,uBAYyD;EARzD,uBO4B8B;EP3B9B,mBO2BsC;EPvBtC,iBAG8E;ADqTlF;AQ/RoB;EACI,kBAAA;EPhBpB,gBOiBwC;EPhBxC,eOgB6C;EPf7C,iBOemD;EPdnD,cOcyD;ARoS7D;AQ5RA;EACI,kBAAA;EACA,UAAA;EACA,SAAA;EACA,UAAA;EAEA,oBAAA;EACA,mBAAA;EAEA,YAAA;EACA,WAAA;EPvDA,aAAA;EACA,uBAYyD;EARzD,uBOoDc;EPnDd,mBOmDsB;EP/CtB,iBAG8E;EAO9E,gBOuCoB;EPtCpB,eOsCyB;EPrCzB,iBOqC+B;EPpC/B,cOoCqC;ARiSzC;AQ9RA;EAEI;IACI,aAAA;ER+RN;EQ5RE;IACI,aAAA;ER8RN;AACF;;AO1TA;EAEQ;IN5CJ,aAAA;IACA,uBAYyD;IARzD,uBMwCsB;INvCtB,mBMuC8B;INnC9B,iBAG8E;EDgWhF;EO7TM;IACI,WAAA;EP+TV;EO7TU;IACI,aAAA;EP+Td;AACF;ASpXI;EACI,yBPEc;AFoXtB;ASpXQ;ERHJ,aAAA;EACA,uBAYyD;EARzD,8BQDsB;EREtB,mBQFqC;ERMrC,iBAG8E;ADiXlF;ASxXY;ERcR,gBQbgC;ERchC,eQdqC;ERerC,iBQf2C;ERgB3C,cQhBiD;EACrC,eAAA;AT6XhB;;ASpXI;EACI,gBAAA;EACA,mBAAA;ERnBJ,aAAA;EACA,uBQoBkC;ERhBlC,uBQgBkB;ERflB,mBQe0B;ERX1B,eQW2C;EACvC,SAAA;AT0XR;;AUhZI;EACI,yBREc;AFiZtB;AUjZQ;ETHJ,aAAA;EACA,uBAYyD;EARzD,8BSDsB;ETEtB,mBSFqC;ETMrC,iBAG8E;AD8YlF;AUrZY;ETcR,gBSbgC;ETchC,eSdqC;ETerC,iBSf2C;ETgB3C,cShBiD;EACrC,eAAA;AV0ZhB;AUrZI;EACI,eAAA;AVuZR;AUrZQ;EACI,aAAA;EACA,uBAAA;EAEA,eAAA;AVsZZ;AUpZY;EACI,cAAA;EACA,aAAA;EACA,8BAAA;AVsZhB;AUpZgB;EACI,mBRzBE;EQ0BF,yCAAA;EACA,sBAAA;EACA,kBAAA;ETXhB,gBSYoC;ETXpC,eSWyC;ETVzC,iBSU+C;ETT/C,YSSqD;AVyZzD;AUvZoB;EACI,yBAAA;EACA,mBR5BV;EDYV,gBSiBwC;EThBxC,eSgB6C;ETf7C,iBSemD;ETdnD,YScyD;AV4Z7D;AUvZY;EACI,UAAA;AVyZhB;AUvZgB;EACI,aAAA;EACA,sBAAA;EACA,SAAA;AVyZpB;;AWzcI;EACI,mBAAA;AX4cR;AWzcI;EACI,yBTFc;AF6ctB;AWzcQ;EVPJ,aAAA;EACA,uBAYyD;EARzD,8BUGsB;EVFtB,mBUEqC;EVErC,iBAG8E;AD0clF;AW7cY;EVUR,gBUTgC;EVUhC,eUVqC;EVWrC,iBUX2C;EVY3C,cUZiD;EACrC,eAAA;AXkdhB;AW3cQ;EVnBJ,aAAA;EACA,sBUmBsC;EVftC,uBUesB;EVdtB,mBUc8B;EVV9B,iBAG8E;ADwdlF;AW7cI;EACI,gBAAA;EACA,iBAAA;EACA,yBAAA;AX+cR;AW5cI;EACI,yBAAA;EACA,uBAAA;AX8cR;AW5cQ;EVlCJ,aAAA;EACA,sBUkCsC;EV9BtC,uBU8BsB;EV7BtB,mBU6B8B;EVzB9B,iBAG8E;ADwelF;AWhdY;EVjBR,gBUkBgC;EVjBhC,eUiBqC;EVhBrC,iBUgB2C;EVf3C,cUeiD;EACrC,gBAAA;EACA,mBAAA;AXqdhB;AWldY;EACI,2BAAA;EACA,yBAAA;EACA,WAAA;EACA,mBAAA;AXodhB;AWjdY;EACI,gBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;AXmdhB;AWhdY;EACI,kBAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,kBAAA;EACA,cAAA;AXkdhB;AW/cY;EACI,gBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;AXidhB;AW9cY;EACI,2BAAA;EACA,yBAAA;EACA,YAAA;EACA,mBAAA;AXgdhB;AW7cY;EACI,mBAAA;AX+chB;AW7cgB;EACI,yBAAA;AX+cpB;AW5cgB;EACI,aAAA;AX8cpB;AW3cgB;EVzEZ,gBU0EoC;EVzEpC,eUyEyC;EVxEzC,iBUwE+C;EVvE/C,cUuEqD;AXgdzD;;AY9iBI;EACI,yDAAA;EACA,4BAAA;EACA,2BAAA;EACA,0BAAA;EACA,iBAAA;AZijBR;AY/iBQ;EXPJ,aAAA;EACA,uBAYyD;EARzD,uBWGsB;EXFtB,mBWE8B;EXE9B,iBAG8E;ADgjBlF;AYjjBI;EACI,gBAAA;EACA,gBAAA;AZmjBR;AYjjBQ;EXhBJ,aAAA;EACA,sBWgBsC;EXZtC,uBWYsB;EXXtB,mBWW8B;EXP9B,iBAG8E;AD2jBlF;AYrjBY;EACI,mBAAA;AZujBhB;AYpjBY;EXHR,gBWIgC;EXHhC,eWGqC;EXFrC,iBWE2C;EXD3C,cWCiD;EACrC,kBAAA;AZyjBhB;AYpjBI;EACI,iBAAA;AZsjBR;AYpjBQ;EXjCJ,aAAA;EACA,sBWiCsC;EX7BtC,uBW6BsB;EX5BtB,mBW4B8B;EXxB9B,iBAG8E;AD+kBlF;AYxjBY;EXhBR,gBWiBgC;EXhBhC,eWgBqC;EXfrC,mBWe2C;EXd3C,cWcmD;EACvC,kBAAA;AZ6jBhB;AY1jBY;EXrBR,gBWsBgC;EXrBhC,eWqBqC;EXpBrC,mBWoB2C;EXnB3C,cWmBmD;EACvC,kBAAA;EACA,mBAAA;AZ+jBhB;AY1jBgB;EACI,aAAA;AZ4jBpB;AY1jBoB;EACI,kBAAA;EACA,mBAAA;EACA,sBAAA;EACA,yBAAA;EACA,4BAAA;EACA,YAAA;EACA,YAAA;AZ4jBxB;AYzjBoB;EACI,YAAA;EACA,YAAA;EACA,mBVzDV;EU0DU,yBAAA;EACA,sBAAA;EACA,4BAAA;EAEA,eAAA;EACA,iBAAA;EACA,YAAA;AZ0jBxB;AYnjBI;EACI,yBV3EqB;EU4ErB,gBAAA;AZqjBR;AYnjBQ;EXnFJ,aAAA;EACA,uBAYyD;EARzD,8BW+EsB;EX9EtB,mBW8EqC;EX1ErC,iBAG8E;ADgoBlF;AYvjBY;EACI,gBAAA;AZyjBhB;AYvjBgB;EACI,eAAA;EACA,iBAAA;EACA,cAAA;AZyjBpB;AYrjBY;EACI,gBAAA;AZujBhB;AYrjBgB;EXnGZ,aAAA;EACA,uBAYyD;EARzD,uBW+F8B;EX9F9B,mBW8FsC;EX1FtC,iBAG8E;ADkpBlF;AYxjBgB;EACI,qBAAA;EACA,WAAA;EACA,YAAA;EACA,yBAAA;AZ0jBpB;AYxjBoB;EX7GhB,aAAA;EACA,uBAYyD;EARzD,uBWyGkC;EXxGlC,mBWwG0C;EXpG1C,iBAG8E;AD+pBlF;AY5jBwB;EACI,WAAA;AZ8jB5B;AY3jBwB;EACI,iBAAA;AZ6jB5B;AY1jBwB;EACI,mBVjHd;AF6qBd;AY1jB4B;EACI,WAAA;AZ4jBhC;;AYljBA;EAEQ;IACI,yDAAA;IACA,4BAAA;IACA,2BAAA;IACA,sBAAA;IACA,iBAAA;EZojBV;EYljBU;IX/IR,aAAA;IACA,sBW+I0C;IX3I1C,uBW2I0B;IX1I1B,mBW0IkC;IXtIlC,iBAG8E;ED2rBhF;EYpjBM;IACI,gBAAA;IACA,gBAAA;EZsjBV;EYpjBU;IXxJR,aAAA;IACA,sBWwJ0C;IXpJ1C,uBWoJ0B;IXnJ1B,mBWmJkC;IX/IlC,iBAG8E;EDssBhF;EYxjBc;IACI,mBAAA;EZ0jBlB;EYvjBc;IX3IZ,gBW4IoC;IX3IpC,eW2IyC;IX1IzC,iBW0I+C;IXzI/C,cWyIqD;IACrC,kBAAA;EZ4jBlB;EYvjBM;IACI,gBAAA;IACA,oBAAA;EZyjBV;EYvjBU;IX1KR,aAAA;IACA,sBW0K0C;IXtK1C,uBWsK0B;IXrK1B,mBWqKkC;IXjKlC,iBAG8E;ED2tBhF;EY3jBc;IXzJZ,gBW0JoC;IXzJpC,eWyJyC;IXxJzC,mBWwJ+C;IXvJ/C,cWuJuD;IACvC,kBAAA;EZgkBlB;EY7jBc;IX9JZ,gBW+JoC;IX9JpC,eW8JyC;IX7JzC,mBW6J+C;IX5J/C,cW4JuD;IACvC,kBAAA;IACA,mBAAA;EZkkBlB;EY7jBkB;IACI,aAAA;EZ+jBtB;EY7jBsB;IACI,kBAAA;IACA,mBAAA;IACA,sBAAA;IACA,yBAAA;IACA,4BAAA;IACA,YAAA;IACA,YAAA;EZ+jB1B;EY5jBsB;IACI,YAAA;IACA,YAAA;IACA,mBVlMd;IUmMc,yBAAA;IACA,sBAAA;IACA,4BAAA;IAEA,eAAA;IACA,iBAAA;IACA,YAAA;EZ6jB1B;AACF;AYrjBA;EAGQ;IACI,gBAAA;IACA,oBAAA;EZqjBV;EYljBM;IACI,yBV9NiB;IU+NjB,iBAAA;EZojBV;EYljBU;IXtOR,aAAA;IACA,8BWsO0C;IXlO1C,uBWkO0B;IXjO1B,mBWiOkC;IX7NlC,iBAG8E;EDkxBhF;EYtjBc;IACI,gBAAA;EZwjBlB;EYtjBkB;IACI,eAAA;IACA,iBAAA;IACA,cAAA;EZwjBtB;EYpjBc;IACI,gBAAA;EZsjBlB;EYpjBkB;IXtPhB,aAAA;IACA,uBAYyD;IARzD,uBWkPkC;IXjPlC,mBWiP0C;IX7O1C,iBAG8E;EDoyBhF;EYvjBkB;IACI,qBAAA;IACA,WAAA;IACA,YAAA;IACA,yBAAA;EZyjBtB;EYvjBsB;IXhQpB,aAAA;IACA,uBAYyD;IARzD,uBW4PsC;IX3PtC,mBW2P8C;IXvP9C,iBAG8E;EDizBhF;EY3jB0B;IACI,WAAA;EZ6jB9B;EY1jB0B;IACI,iBAAA;EZ4jB9B;EYzjB0B;IACI,mBVpQlB;EF+zBZ;EYzjB8B;IACI,WAAA;EZ2jBlC;AACF","sourcesContent":["@import \"module/var\";\r\n@import \"module/mixin\";\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    font-family: 'Lato', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n    min-height: 100vh;\r\n    @include flex-init(column);\r\n}\r\n\r\n.wrapper__top {\r\n    flex-grow: 1;\r\n}\r\n\r\n.container {\r\n    max-width: $container-max-width;\r\n    padding: 0 10px;\r\n    margin: 0 auto;\r\n}\r\n\r\na:hover {\r\n    transition: 0.3s;\r\n    transform: scale(1.1);\r\n}\r\n\r\nbutton:hover {\r\n    transition: 0.3s;\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n}\r\n\r\nlabel:hover {\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n}\r\n\r\n.search-input {\r\n    width: 100%;\r\n    border: 1px solid teal;\r\n    padding: 10px 15px;\r\n    margin-left: 10px\r\n}\r\n\r\n@import \"module/addBtn\";\r\n@import \"module/product\";\r\n@import \"module/cartItem\";\r\n@import \"module/filter\";\r\n@import \"module/header\";\r\n@import \"module/catalog\";\r\n@import \"module/cart\";\r\n@import \"module/productPage\";\r\n@import \"module/footer\";","@mixin flex-init($flex-direction: initial) {\r\n    display: flex;\r\n    flex-direction: $flex-direction;\r\n}\r\n\r\n@mixin flex-alignment($justify-content, $align-items) {\r\n    justify-content: $justify-content;\r\n    align-items: $align-items;\r\n}\r\n\r\n@mixin flex-wrap($flex-wrap: nowrap) {\r\n    flex-wrap: $flex-wrap;\r\n}\r\n\r\n@mixin flex($justify-content, $align-items, $flex-direction: initial, $flex-wrap: nowrap) {\r\n    @include flex-init($flex-direction);\r\n    @include flex-alignment($justify-content, $align-items);\r\n    @include flex-wrap($flex-wrap);\r\n}\r\n\r\n@mixin text-decor($font-weight, $font-size, $line-height, $color: black) {\r\n    font-weight: $font-weight;\r\n    font-size: $font-size;\r\n    line-height: $line-height;\r\n    color: $color;\r\n}\r\n\r\n@mixin min-max-box($min-width: none, $max-width: none, $min-height: none, $max-height: none) {\r\n    min-width: $min-width;\r\n    max-width: $max-width;\r\n    min-height: $min-height;\r\n    max-height: $max-height;\r\n}","$container-max-width: 1160px;\r\n\r\n$header-bcgnd-color: #222222;\r\n$promo-bcgnd-color: #F1E4E6;\r\n$product-bcgnd-color: #F8F8F8;\r\n$service-bcgnd-color: #222224;\r\n$footer__bottom-bcgnd-color: #222224;\r\n$price-color: #F16D7F;\r\n$span-color: #F16D7F;\r\n$hover-color: #F16D7F;",".add__btn {\r\n    background: none;\r\n    padding: 11px 16px 9px 14px;\r\n\r\n    &--flex {\r\n        @include flex(center, center);\r\n\r\n        span {\r\n            margin-left: 11px;\r\n        }\r\n    }\r\n}",".product {\r\n    width: 360px;\r\n    position: relative;\r\n    background: $product-bcgnd-color;\r\n    box-sizing: border-box;\r\n    overflow: hidden;\r\n    transition: 0.5s;\r\n\r\n    & img {\r\n        width: 360px;\r\n        height: 420px;\r\n    }\r\n\r\n    &:hover {\r\n        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);\r\n\r\n        .product__overlay {\r\n            opacity: 1;\r\n        }\r\n    }\r\n\r\n    &__overlay--flex {\r\n        @include flex(center, center);\r\n    }\r\n\r\n    &__overlay {\r\n        position: absolute;\r\n        top: 0;\r\n        right: 0;\r\n        left: 0;\r\n        height: 420px;\r\n        background: rgba(58, 56, 56, 0.86);\r\n        opacity: 0;\r\n        transition: 0.5s;\r\n\r\n        .overlay {\r\n            margin-bottom: 5px;\r\n\r\n            .add__btn--grey {\r\n                button {\r\n                    border: 1px solid white;\r\n                }\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n\r\n                span {\r\n                    @include text-decor(400, 14px, 17px, white);\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    &__container {\r\n        box-sizing: border-box;\r\n        margin-top: 25px;\r\n        padding: 0 28.8px 20px 18px;\r\n\r\n        & h3 {\r\n            @include text-decor(400, 24px, 29px, black);\r\n            cursor: pointer;\r\n\r\n            &:hover {\r\n                color: $hover-color;\r\n            }\r\n        }\r\n\r\n        p {\r\n            @include text-decor(300, 14px, 17px, #5D5D5D);\r\n            margin-top: 13px;\r\n            margin-bottom: 18px;\r\n        }\r\n\r\n        strong {\r\n            @include text-decor(400, 16px, 19px, $price-color);\r\n        }\r\n    }\r\n}",".cart-item {\r\n    display: flex;\r\n    box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);\r\n    padding: 7px;\r\n\r\n    & img {\r\n        max-width: 100px;\r\n    }\r\n\r\n    &__desc {\r\n        width: 100%;\r\n        margin: 12px 12px 0 21px;\r\n    }\r\n\r\n    &__header {\r\n        @include flex(space-between, center);\r\n\r\n        & h3 {\r\n            @include text-decor(400, 24px, 29px, black);\r\n            cursor: pointer;\r\n\r\n            &:hover {\r\n                color: $hover-color;\r\n            }\r\n        }\r\n\r\n        & .button-del {\r\n            border: none;\r\n            background: none;\r\n\r\n            span {\r\n                color: rgb(143, 25, 25);\r\n            }\r\n        }\r\n    }\r\n\r\n    &__body {\r\n        margin-top: 20px;\r\n\r\n        &--grid {\r\n            display: grid;\r\n            justify-content: center;\r\n            grid-template-columns: repeat(3, 1fr);\r\n            grid-gap: 5px;\r\n            border-bottom: 1px solid #ebebeb;\r\n\r\n            .item-quantity {\r\n                display: flex;\r\n                justify-content: center;\r\n                align-items: center;\r\n\r\n                .quantity__btn {\r\n                    padding: 3px 3px;\r\n                    border: none;\r\n                    background: none;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n}",".filters {\r\n    &--flex {\r\n        @include flex(center, center);\r\n    }\r\n\r\n    padding: 15px 0;\r\n\r\n    .check-filter {\r\n        position: relative;\r\n\r\n        & details {\r\n            @include text-decor(400, 17px, 19px, #6f6e6e);\r\n\r\n            &[open] {\r\n                & summary {\r\n                    color: $hover-color;\r\n                }\r\n\r\n                & svg {\r\n                    fill: $hover-color;\r\n                }\r\n            }\r\n\r\n            & summary {\r\n                display: block;\r\n                list-style: none;\r\n\r\n                & svg {\r\n                    margin-left: 11px;\r\n                    fill: #6f6e6e;\r\n                }\r\n            }\r\n\r\n            .check-list {\r\n                position: absolute;\r\n                z-index: 4;\r\n                margin-top: 5px;\r\n\r\n                & input {\r\n                    margin-right: 9px;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",".header {\r\n    background-color: $header-bcgnd-color;\r\n    padding: 19px 0;\r\n\r\n    &__wrap {\r\n        @include flex(space-between, center);\r\n    }\r\n\r\n    &__left {\r\n        @include flex(center, center);\r\n\r\n        .logo__link {\r\n            margin-right: 41px;\r\n            cursor: pointer;\r\n        }\r\n    }\r\n\r\n    &__right {\r\n        position: relative;\r\n        z-index: 1;\r\n\r\n        .nav {\r\n            &_flex {\r\n                @include flex(center, center);\r\n            }\r\n\r\n            &__item {\r\n                display: inline-block;\r\n\r\n                &:hover {\r\n                    cursor: pointer;\r\n                }\r\n\r\n                &:not(:last-child) {\r\n                    margin-right: 33px;\r\n                }\r\n\r\n                @import \"_miniCart\";\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 426px) {\r\n    .nav {\r\n        &_flex {\r\n            @include flex(center, center);\r\n        }\r\n\r\n        &__item {\r\n            margin: 0px;\r\n\r\n            .account__link {\r\n                display: none;\r\n            }\r\n        }\r\n    }\r\n}",".cart {\r\n\r\n    &__table {\r\n        z-index: 2;\r\n        width: 520px;\r\n        box-sizing: border-box;\r\n        right: 0;\r\n        position: absolute;\r\n        padding: 15px;\r\n\r\n        background: #FFFFFF;\r\n        border-radius: 5px;\r\n        box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);\r\n\r\n        .cart__top {\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n                gap: 5px;\r\n            }\r\n        }\r\n\r\n        .cart__bottom {\r\n            padding-top: 10px;\r\n\r\n            &--flex {\r\n                @include flex(space-between, center);\r\n                gap: 20px;\r\n            }\r\n\r\n            .cart__link {\r\n                border: 1px solid #22222E;\r\n                padding: 10px 15px;\r\n\r\n                &_flex {\r\n                    @include flex(center, center);\r\n\r\n                    p {\r\n                        text-align: center;\r\n                        @include text-decor(400, 16px, 19px, #22222E);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.counter {\r\n    position: absolute;\r\n    z-index: 2;\r\n    top: -20%;\r\n    right: -5%;\r\n\r\n    border-radius: 200px;\r\n    background: #F16D7F;\r\n\r\n    height: 19px;\r\n    width: 19px;\r\n\r\n    @include flex(center, center);\r\n\r\n    @include text-decor(400, 12px, 14px, #FFFFFF);\r\n}\r\n\r\n@media(max-width: 426px) {\r\n\r\n    .cart {\r\n        display: none;\r\n    }\r\n\r\n    .quant {\r\n        display: none;\r\n    }\r\n}",".catalog {\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n.products-list {\r\n    &__wrap {\r\n        margin-top: 64px;\r\n        margin-bottom: 48px;\r\n\r\n        @include flex(center, center, initial, wrap);\r\n        gap: 30px;\r\n    }\r\n}",".cart {\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__main {\r\n        padding: 40px 0;\r\n\r\n        &--flex {\r\n            display: flex;\r\n            justify-content: center;\r\n            //justify-content: space-between;\r\n            flex-wrap: wrap;\r\n\r\n            .cart__items-btns {\r\n                margin: 20px 0;\r\n                display: flex;\r\n                justify-content: space-between;\r\n\r\n                & button {\r\n                    background: $product-bcgnd-color;\r\n                    border: 1px solid rgba(51, 46, 46, 0.438);\r\n                    box-sizing: border-box;\r\n                    padding: 16px 40px;\r\n                    @include text-decor(400, 14px, 17px, black);\r\n\r\n                    &:hover {\r\n                        border: 1px solid $hover-color;\r\n                        background: $hover-color;\r\n                        @include text-decor(400, 14px, 17px, white);\r\n                    }\r\n                }\r\n            }\r\n\r\n            .cart__items {\r\n                width: 70%;\r\n\r\n                &--flex {\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: 30px;\r\n                }\r\n            }\r\n\r\n            // .shopform {\r\n            //     width: 35%;\r\n            //     height: fit-content;\r\n            //     padding: 15px;\r\n            //     background-color: $product-bcgnd-color;\r\n            //     border: 1px solid rgba(0, 0, 0, 0.13);\r\n            //     box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);\r\n\r\n            //     &--flex {\r\n            //         display: flex;\r\n            //         flex-direction: column;\r\n\r\n            //         h2 {\r\n            //             @include text-decor(400, 22px, 27px, #22222E);\r\n            //             margin-bottom: 15px;\r\n            //             text-align: center;\r\n            //         }\r\n\r\n            //         form {\r\n            //             .shopform__item {\r\n            //                 display: flex;\r\n            //                 flex-direction: column;\r\n            //                 justify-content: flex-start;\r\n\r\n            //                 h3 {\r\n            //                     @include text-decor(400, 17px, 22px, #22222E);\r\n            //                     margin-bottom: 12px;\r\n            //                 }\r\n\r\n            //                 input {\r\n            //                     max-width: 360px;\r\n            //                     min-height: 38px;\r\n            //                     box-sizing: border-box;\r\n            //                     padding: 13px 0 16px 17px;\r\n\r\n            //                     &:not(:last-child) {\r\n            //                         margin-bottom: 8px;\r\n            //                     }\r\n            //                 }\r\n\r\n            //                 &:not(:first-child) {\r\n            //                     margin-top: 12px;\r\n            //                 }\r\n            //             }\r\n\r\n            //             .buy-btn {\r\n            //                 margin-top: 15px;\r\n            //                 display: flex;\r\n            //                 justify-content: center;\r\n\r\n            //                 & button {\r\n            //                     background: $hover-color;\r\n            //                     border: 1px solid #F16D7F;\r\n            //                     box-sizing: border-box;\r\n            //                     padding: 16px 40px;\r\n            //                     @include text-decor(400, 14px, 17px, white);\r\n            //                 }\r\n            //             }\r\n            //         }\r\n            //     }\r\n            // }\r\n        }\r\n    }\r\n}",".product-page {\r\n    &--box {\r\n        margin-bottom: 10px;\r\n    }\r\n\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__body {\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n        }\r\n    }\r\n\r\n    &__img {\r\n        max-width: 450px;\r\n        min-height: 500px;\r\n        border: 2px solid $product-bcgnd-color;\r\n    }\r\n\r\n    &__desc {\r\n        border: 1px solid #EAEAEA;\r\n        background-color: white;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            h2 {\r\n                @include text-decor(400, 19px, 22px, #F16D7F);\r\n                margin-top: 64px;\r\n                margin-bottom: 12px;\r\n            }\r\n\r\n            .line__red {\r\n                border: 1.5px solid #F16D7F;\r\n                background-color: #F16D7F;\r\n                width: 63px;\r\n                margin-bottom: 50px;\r\n            }\r\n\r\n            & h3 {\r\n                margin-top: 12px;\r\n                margin-bottom: 48px;\r\n                font-size: 18px;\r\n                line-height: 22px;\r\n                color: #4D4D4D;\r\n            }\r\n\r\n            & p {\r\n                margin-top: 0 auto;\r\n                width: 565px;\r\n                font-size: 14px;\r\n                line-height: 17px;\r\n                text-align: center;\r\n                color: #5E5E5E;\r\n            }\r\n\r\n            & strong {\r\n                margin-top: 32px;\r\n                margin-bottom: 64px;\r\n                font-size: 24px;\r\n                line-height: 29px;\r\n                color: #EF5B70;\r\n            }\r\n\r\n            .line__grey {\r\n                border: 1.5px solid #EAEAEA;\r\n                background-color: #EAEAEA;\r\n                width: 642px;\r\n                margin-bottom: 64px;\r\n            }\r\n\r\n            .add__btn--red {\r\n                margin-bottom: 64px;\r\n\r\n                button {\r\n                    border: 1px solid #F16D7F;\r\n                }\r\n\r\n                svg {\r\n                    fill: #F16D7F;\r\n                }\r\n\r\n                span {\r\n                    @include text-decor(400, 14px, 17px, #F16D7F);\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",".footer {\r\n    &__top {\r\n        background-image: url(../assets/footer-top.png);\r\n        background-repeat: no-repeat;\r\n        background-position: center;\r\n        background-size: 100% 100%;\r\n        min-height: 448px;\r\n\r\n        &--flex {\r\n            @include flex(center, center);\r\n        }\r\n    }\r\n\r\n    &__comment {\r\n        margin-top: 97px;\r\n        max-width: 360px;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            img {\r\n                margin-bottom: 30px;\r\n            }\r\n\r\n            p {\r\n                @include text-decor(400, 20px, 24px, #222224);\r\n                text-align: center;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__subscribe {\r\n        margin-top: 150px;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            h3 {\r\n                @include text-decor(700, 24px, 167.2%, #222224);\r\n                text-align: center;\r\n            }\r\n\r\n            p {\r\n                @include text-decor(400, 18px, 167.2%, #222224);\r\n                text-align: center;\r\n                margin-bottom: 32px;\r\n            }\r\n\r\n            .subscribe__form {\r\n\r\n                &--flex {\r\n                    display: flex;\r\n\r\n                    input {\r\n                        padding-left: 22px;\r\n                        background: #E1E1E1;\r\n                        box-sizing: border-box;\r\n                        border: 1px solid #E1E1E1;\r\n                        border-radius: 15px 0 0 15px;\r\n                        height: 49px;\r\n                        width: 256px;\r\n                    }\r\n\r\n                    button {\r\n                        height: 49px;\r\n                        width: 100px;\r\n                        background: $hover-color;\r\n                        border: 1px solid #F16D7F;\r\n                        box-sizing: border-box;\r\n                        border-radius: 0 15px 15px 0;\r\n\r\n                        font-size: 14px;\r\n                        line-height: 17px;\r\n                        color: white;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    &__bottom {\r\n        background-color: $footer__bottom-bcgnd-color;\r\n        min-height: 79px;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            .rights-reserved {\r\n                margin-top: 30px;\r\n\r\n                p {\r\n                    font-size: 16px;\r\n                    line-height: 19px;\r\n                    color: #FBFBFB;\r\n                }\r\n            }\r\n\r\n            .social-networks {\r\n                margin-top: 24px;\r\n\r\n                &--flex {\r\n                    @include flex(center, center);\r\n                }\r\n\r\n                &__link {\r\n                    text-decoration: none;\r\n                    width: 32px;\r\n                    height: 32px;\r\n                    background-color: #FFFFFF;\r\n\r\n                    &--flex {\r\n                        @include flex(center, center);\r\n\r\n                        .network-icon {\r\n                            fill: black;\r\n                        }\r\n\r\n                        &:not(:last-child) {\r\n                            margin-right: 7px;\r\n                        }\r\n\r\n                        &:hover {\r\n                            background: $hover-color;\r\n\r\n                            .network-icon {\r\n                                fill: white;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 768px) {\r\n    .footer {\r\n        &__top {\r\n            background-image: url(../assets/footer-top.png);\r\n            background-repeat: no-repeat;\r\n            background-position: center;\r\n            background-size: cover;\r\n            min-height: 448px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n            }\r\n        }\r\n\r\n        &__comment {\r\n            margin-top: 64px;\r\n            max-width: 360px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n\r\n                img {\r\n                    margin-bottom: 30px;\r\n                }\r\n\r\n                p {\r\n                    @include text-decor(400, 20px, 24px, #222224);\r\n                    text-align: center;\r\n                }\r\n            }\r\n        }\r\n\r\n        &__subscribe {\r\n            margin-top: 48px;\r\n            margin-bottom: 140px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n\r\n                h3 {\r\n                    @include text-decor(700, 24px, 167.2%, #222224);\r\n                    text-align: center;\r\n                }\r\n\r\n                p {\r\n                    @include text-decor(400, 18px, 167.2%, #222224);\r\n                    text-align: center;\r\n                    margin-bottom: 32px;\r\n                }\r\n\r\n                .subscribe__form {\r\n\r\n                    &--flex {\r\n                        display: flex;\r\n\r\n                        input {\r\n                            padding-left: 22px;\r\n                            background: #E1E1E1;\r\n                            box-sizing: border-box;\r\n                            border: 1px solid #E1E1E1;\r\n                            border-radius: 15px 0 0 15px;\r\n                            height: 49px;\r\n                            width: 256px;\r\n                        }\r\n\r\n                        button {\r\n                            height: 49px;\r\n                            width: 100px;\r\n                            background: $hover-color;\r\n                            border: 1px solid #F16D7F;\r\n                            box-sizing: border-box;\r\n                            border-radius: 0 15px 15px 0;\r\n\r\n                            font-size: 14px;\r\n                            line-height: 17px;\r\n                            color: white;\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 426px) {\r\n    .footer {\r\n\r\n        &__subscribe {\r\n            margin-top: 48px;\r\n            margin-bottom: 109px;\r\n        }\r\n\r\n        .footer__bottom {\r\n            background-color: $footer__bottom-bcgnd-color;\r\n            min-height: 143px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column-reverse);\r\n\r\n                .rights-reserved {\r\n                    margin-top: 30px;\r\n\r\n                    p {\r\n                        font-size: 16px;\r\n                        line-height: 19px;\r\n                        color: #FBFBFB;\r\n                    }\r\n                }\r\n\r\n                .social-networks {\r\n                    margin-top: 24px;\r\n\r\n                    &--flex {\r\n                        @include flex(center, center);\r\n                    }\r\n\r\n                    &__link {\r\n                        text-decoration: none;\r\n                        width: 32px;\r\n                        height: 32px;\r\n                        background-color: #FFFFFF;\r\n\r\n                        &--flex {\r\n                            @include flex(center, center);\r\n\r\n                            .network-icon {\r\n                                fill: black;\r\n                            }\r\n\r\n                            &:not(:last-child) {\r\n                                margin-right: 7px;\r\n                            }\r\n\r\n                            &:hover {\r\n                                background: $hover-color;\r\n\r\n                                .network-icon {\r\n                                    fill: white;\r\n                                }\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Lato\", sans-serif;\n}\n\n.wrapper {\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n}\n\n.wrapper__top {\n  flex-grow: 1;\n}\n\n.container {\n  max-width: 1160px;\n  padding: 0 10px;\n  margin: 0 auto;\n}\n\na:hover {\n  transition: 0.3s;\n  transform: scale(1.1);\n}\n\nbutton:hover {\n  transition: 0.3s;\n  cursor: pointer;\n  transform: scale(1.1);\n}\n\nlabel:hover {\n  cursor: pointer;\n  transform: scale(1.1);\n}\n\n.search-input {\n  width: 100%;\n  border: 1px solid teal;\n  padding: 10px 15px;\n  margin-left: 10px;\n}\n\n.add__btn {\n  background: none;\n  padding: 11px 16px 9px 14px;\n}\n.add__btn--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.add__btn--flex span {\n  margin-left: 11px;\n}\n\n.product {\n  width: 360px;\n  position: relative;\n  background: #F8F8F8;\n  box-sizing: border-box;\n  overflow: hidden;\n  transition: 0.5s;\n}\n.product img {\n  width: 360px;\n  height: 420px;\n}\n.product:hover {\n  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);\n}\n.product:hover .product__overlay {\n  opacity: 1;\n}\n.product__overlay--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product__overlay {\n  position: absolute;\n  top: 0;\n  right: 0;\n  left: 0;\n  height: 420px;\n  background: rgba(58, 56, 56, 0.86);\n  opacity: 0;\n  transition: 0.5s;\n}\n.product__overlay .overlay {\n  margin-bottom: 5px;\n}\n.product__overlay .overlay .add__btn--grey button {\n  border: 1px solid white;\n}\n.product__overlay .overlay .add__btn--grey svg {\n  fill: white;\n}\n.product__overlay .overlay .add__btn--grey span {\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.product__container {\n  box-sizing: border-box;\n  margin-top: 25px;\n  padding: 0 28.8px 20px 18px;\n}\n.product__container h3 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: black;\n  cursor: pointer;\n}\n.product__container h3:hover {\n  color: #F16D7F;\n}\n.product__container p {\n  font-weight: 300;\n  font-size: 14px;\n  line-height: 17px;\n  color: #5D5D5D;\n  margin-top: 13px;\n  margin-bottom: 18px;\n}\n.product__container strong {\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 19px;\n  color: #F16D7F;\n}\n\n.cart-item {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);\n  padding: 7px;\n}\n.cart-item img {\n  max-width: 100px;\n}\n.cart-item__desc {\n  width: 100%;\n  margin: 12px 12px 0 21px;\n}\n.cart-item__header {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.cart-item__header h3 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: black;\n  cursor: pointer;\n}\n.cart-item__header h3:hover {\n  color: #F16D7F;\n}\n.cart-item__header .button-del {\n  border: none;\n  background: none;\n}\n.cart-item__header .button-del span {\n  color: rgb(143, 25, 25);\n}\n.cart-item__body {\n  margin-top: 20px;\n}\n.cart-item__body--grid {\n  display: grid;\n  justify-content: center;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 5px;\n  border-bottom: 1px solid #ebebeb;\n}\n.cart-item__body--grid .item-quantity {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.cart-item__body--grid .item-quantity .quantity__btn {\n  padding: 3px 3px;\n  border: none;\n  background: none;\n  cursor: pointer;\n}\n\n.filters {\n  padding: 15px 0;\n}\n.filters--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.filters .check-filter {\n  position: relative;\n}\n.filters .check-filter details {\n  font-weight: 400;\n  font-size: 17px;\n  line-height: 19px;\n  color: #6f6e6e;\n}\n.filters .check-filter details[open] summary {\n  color: #F16D7F;\n}\n.filters .check-filter details[open] svg {\n  fill: #F16D7F;\n}\n.filters .check-filter details summary {\n  display: block;\n  list-style: none;\n}\n.filters .check-filter details summary svg {\n  margin-left: 11px;\n  fill: #6f6e6e;\n}\n.filters .check-filter details .check-list {\n  position: absolute;\n  z-index: 4;\n  margin-top: 5px;\n}\n.filters .check-filter details .check-list input {\n  margin-right: 9px;\n}\n\n.header {\n  background-color: #222222;\n  padding: 19px 0;\n}\n.header__wrap {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__left {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__left .logo__link {\n  margin-right: 41px;\n  cursor: pointer;\n}\n.header__right {\n  position: relative;\n  z-index: 1;\n}\n.header__right .nav_flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__right .nav__item {\n  display: inline-block;\n}\n.header__right .nav__item:hover {\n  cursor: pointer;\n}\n.header__right .nav__item:not(:last-child) {\n  margin-right: 33px;\n}\n.header__right .nav__item .cart__table {\n  z-index: 2;\n  width: 520px;\n  box-sizing: border-box;\n  right: 0;\n  position: absolute;\n  padding: 15px;\n  background: #FFFFFF;\n  border-radius: 5px;\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);\n}\n.header__right .nav__item .cart__table .cart__top--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  gap: 5px;\n}\n.header__right .nav__item .cart__table .cart__bottom {\n  padding-top: 10px;\n}\n.header__right .nav__item .cart__table .cart__bottom--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n  gap: 20px;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link {\n  border: 1px solid #22222E;\n  padding: 10px 15px;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link_flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.header__right .nav__item .cart__table .cart__bottom .cart__link_flex p {\n  text-align: center;\n  font-weight: 400;\n  font-size: 16px;\n  line-height: 19px;\n  color: #22222E;\n}\n.header__right .nav__item .counter {\n  position: absolute;\n  z-index: 2;\n  top: -20%;\n  right: -5%;\n  border-radius: 200px;\n  background: #F16D7F;\n  height: 19px;\n  width: 19px;\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  font-weight: 400;\n  font-size: 12px;\n  line-height: 14px;\n  color: #FFFFFF;\n}\n@media (max-width: 426px) {\n  .header__right .nav__item .cart {\n    display: none;\n  }\n  .header__right .nav__item .quant {\n    display: none;\n  }\n}\n\n@media (max-width: 426px) {\n  .nav_flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .nav__item {\n    margin: 0px;\n  }\n  .nav__item .account__link {\n    display: none;\n  }\n}\n.catalog__header {\n  background-color: #F8F8F8;\n}\n.catalog__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.catalog__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n\n.products-list__wrap {\n  margin-top: 64px;\n  margin-bottom: 48px;\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: 30px;\n}\n\n.cart__header {\n  background-color: #F8F8F8;\n}\n.cart__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.cart__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n.cart__main {\n  padding: 40px 0;\n}\n.cart__main--flex {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.cart__main--flex .cart__items-btns {\n  margin: 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.cart__main--flex .cart__items-btns button {\n  background: #F8F8F8;\n  border: 1px solid rgba(51, 46, 46, 0.438);\n  box-sizing: border-box;\n  padding: 16px 40px;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: black;\n}\n.cart__main--flex .cart__items-btns button:hover {\n  border: 1px solid #F16D7F;\n  background: #F16D7F;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.cart__main--flex .cart__items {\n  width: 70%;\n}\n.cart__main--flex .cart__items--flex {\n  display: flex;\n  flex-direction: column;\n  gap: 30px;\n}\n.cart__main--flex .cart__items-btns {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.cart__main--flex .cart__items-btns button {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n  width: 220px;\n  height: 48px;\n}\n\n.shopform {\n  top: 0;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.5);\n  position: fixed;\n}\n.shopform--flex {\n  display: flex;\n}\n.shopform form {\n  padding: 20px;\n  margin: auto;\n  background: white;\n  border-radius: 10px;\n  max-width: 50%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n.shopform form .shopform__item {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n.shopform form .shopform__item h3 {\n  font-weight: 400;\n  font-size: 17px;\n  line-height: 22px;\n  color: #22222E;\n  margin-bottom: 12px;\n}\n.shopform form .shopform__item input {\n  max-width: 360px;\n  min-height: 38px;\n  box-sizing: border-box;\n  padding: 13px 0 16px 17px;\n}\n.shopform form .shopform__item input:not(:last-child) {\n  margin-bottom: 8px;\n}\n.shopform form .shopform__item:not(:first-child) {\n  margin-top: 12px;\n}\n.shopform form .buy-btn {\n  margin-top: 15px;\n  display: flex;\n  justify-content: center;\n}\n.shopform form .buy-btn button {\n  background: #F16D7F;\n  border: 1px solid #F16D7F;\n  box-sizing: border-box;\n  padding: 16px 40px;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n\n.product-page--box {\n  margin-bottom: 10px;\n}\n.product-page__header {\n  background-color: #F8F8F8;\n}\n.product-page__header--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__header--flex h1 {\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 29px;\n  color: #F16D7F;\n  padding: 60px 0;\n}\n.product-page__body--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__img {\n  max-width: 450px;\n  min-height: 500px;\n  border: 2px solid #F8F8F8;\n}\n.product-page__desc {\n  border: 1px solid #EAEAEA;\n  background-color: white;\n}\n.product-page__desc--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.product-page__desc--flex h2 {\n  font-weight: 400;\n  font-size: 19px;\n  line-height: 22px;\n  color: #F16D7F;\n  margin-top: 64px;\n  margin-bottom: 12px;\n}\n.product-page__desc--flex .line__red {\n  border: 1.5px solid #F16D7F;\n  background-color: #F16D7F;\n  width: 63px;\n  margin-bottom: 50px;\n}\n.product-page__desc--flex h3 {\n  margin-top: 12px;\n  margin-bottom: 48px;\n  font-size: 18px;\n  line-height: 22px;\n  color: #4D4D4D;\n}\n.product-page__desc--flex p {\n  margin-top: 0 auto;\n  width: 565px;\n  font-size: 14px;\n  line-height: 17px;\n  text-align: center;\n  color: #5E5E5E;\n}\n.product-page__desc--flex strong {\n  margin-top: 32px;\n  margin-bottom: 64px;\n  font-size: 24px;\n  line-height: 29px;\n  color: #EF5B70;\n}\n.product-page__desc--flex .line__grey {\n  border: 1.5px solid #EAEAEA;\n  background-color: #EAEAEA;\n  width: 642px;\n  margin-bottom: 64px;\n}\n.product-page__desc--flex .add__btn--red {\n  margin-bottom: 64px;\n}\n.product-page__desc--flex .add__btn--red button {\n  border: 1px solid #F16D7F;\n}\n.product-page__desc--flex .add__btn--red svg {\n  fill: #F16D7F;\n}\n.product-page__desc--flex .add__btn--red span {\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 17px;\n  color: #F16D7F;\n}\n\n.footer__top {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: 100% 100%;\n  min-height: 448px;\n}\n.footer__top--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__comment {\n  margin-top: 97px;\n  max-width: 360px;\n}\n.footer__comment--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__comment--flex img {\n  margin-bottom: 30px;\n}\n.footer__comment--flex p {\n  font-weight: 400;\n  font-size: 20px;\n  line-height: 24px;\n  color: #222224;\n  text-align: center;\n}\n.footer__subscribe {\n  margin-top: 150px;\n}\n.footer__subscribe--flex {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__subscribe--flex h3 {\n  font-weight: 700;\n  font-size: 24px;\n  line-height: 167.2%;\n  color: #222224;\n  text-align: center;\n}\n.footer__subscribe--flex p {\n  font-weight: 400;\n  font-size: 18px;\n  line-height: 167.2%;\n  color: #222224;\n  text-align: center;\n  margin-bottom: 32px;\n}\n.footer__subscribe--flex .subscribe__form--flex {\n  display: flex;\n}\n.footer__subscribe--flex .subscribe__form--flex input {\n  padding-left: 22px;\n  background: #E1E1E1;\n  box-sizing: border-box;\n  border: 1px solid #E1E1E1;\n  border-radius: 15px 0 0 15px;\n  height: 49px;\n  width: 256px;\n}\n.footer__subscribe--flex .subscribe__form--flex button {\n  height: 49px;\n  width: 100px;\n  background: #F16D7F;\n  border: 1px solid #F16D7F;\n  box-sizing: border-box;\n  border-radius: 0 15px 15px 0;\n  font-size: 14px;\n  line-height: 17px;\n  color: white;\n}\n.footer__bottom {\n  background-color: #222224;\n  min-height: 79px;\n}\n.footer__bottom--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .rights-reserved {\n  margin-top: 30px;\n}\n.footer__bottom--flex .rights-reserved p {\n  font-size: 16px;\n  line-height: 19px;\n  color: #FBFBFB;\n}\n.footer__bottom--flex .social-networks {\n  margin-top: 24px;\n}\n.footer__bottom--flex .social-networks--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .social-networks__link {\n  text-decoration: none;\n  width: 32px;\n  height: 32px;\n  background-color: #FFFFFF;\n}\n.footer__bottom--flex .social-networks__link--flex {\n  display: flex;\n  flex-direction: initial;\n  justify-content: center;\n  align-items: center;\n  flex-wrap: nowrap;\n}\n.footer__bottom--flex .social-networks__link--flex .network-icon {\n  fill: black;\n}\n.footer__bottom--flex .social-networks__link--flex:not(:last-child) {\n  margin-right: 7px;\n}\n.footer__bottom--flex .social-networks__link--flex:hover {\n  background: #F16D7F;\n}\n.footer__bottom--flex .social-networks__link--flex:hover .network-icon {\n  fill: white;\n}\n\n@media (max-width: 768px) {\n  .footer__top {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 448px;\n  }\n  .footer__top--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__comment {\n    margin-top: 64px;\n    max-width: 360px;\n  }\n  .footer__comment--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__comment--flex img {\n    margin-bottom: 30px;\n  }\n  .footer__comment--flex p {\n    font-weight: 400;\n    font-size: 20px;\n    line-height: 24px;\n    color: #222224;\n    text-align: center;\n  }\n  .footer__subscribe {\n    margin-top: 48px;\n    margin-bottom: 140px;\n  }\n  .footer__subscribe--flex {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer__subscribe--flex h3 {\n    font-weight: 700;\n    font-size: 24px;\n    line-height: 167.2%;\n    color: #222224;\n    text-align: center;\n  }\n  .footer__subscribe--flex p {\n    font-weight: 400;\n    font-size: 18px;\n    line-height: 167.2%;\n    color: #222224;\n    text-align: center;\n    margin-bottom: 32px;\n  }\n  .footer__subscribe--flex .subscribe__form--flex {\n    display: flex;\n  }\n  .footer__subscribe--flex .subscribe__form--flex input {\n    padding-left: 22px;\n    background: #E1E1E1;\n    box-sizing: border-box;\n    border: 1px solid #E1E1E1;\n    border-radius: 15px 0 0 15px;\n    height: 49px;\n    width: 256px;\n  }\n  .footer__subscribe--flex .subscribe__form--flex button {\n    height: 49px;\n    width: 100px;\n    background: #F16D7F;\n    border: 1px solid #F16D7F;\n    box-sizing: border-box;\n    border-radius: 0 15px 15px 0;\n    font-size: 14px;\n    line-height: 17px;\n    color: white;\n  }\n}\n@media (max-width: 426px) {\n  .footer__subscribe {\n    margin-top: 48px;\n    margin-bottom: 109px;\n  }\n  .footer .footer__bottom {\n    background-color: #222224;\n    min-height: 143px;\n  }\n  .footer .footer__bottom--flex {\n    display: flex;\n    flex-direction: column-reverse;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .rights-reserved {\n    margin-top: 30px;\n  }\n  .footer .footer__bottom--flex .rights-reserved p {\n    font-size: 16px;\n    line-height: 19px;\n    color: #FBFBFB;\n  }\n  .footer .footer__bottom--flex .social-networks {\n    margin-top: 24px;\n  }\n  .footer .footer__bottom--flex .social-networks--flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .social-networks__link {\n    text-decoration: none;\n    width: 32px;\n    height: 32px;\n    background-color: #FFFFFF;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex {\n    display: flex;\n    flex-direction: initial;\n    justify-content: center;\n    align-items: center;\n    flex-wrap: nowrap;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex .network-icon {\n    fill: black;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:not(:last-child) {\n    margin-right: 7px;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:hover {\n    background: #F16D7F;\n  }\n  .footer .footer__bottom--flex .social-networks__link--flex:hover .network-icon {\n    fill: white;\n  }\n}", "",{"version":3,"sources":["webpack://./src/public/styles/styles.scss","webpack://./src/public/styles/module/_mixin.scss","webpack://./src/public/styles/module/_var.scss","webpack://./src/public/styles/module/_addBtn.scss","webpack://./src/public/styles/module/_product.scss","webpack://./src/public/styles/module/_cartItem.scss","webpack://./src/public/styles/module/_filter.scss","webpack://./src/public/styles/module/_header.scss","webpack://./src/public/styles/module/_miniCart.scss","webpack://./src/public/styles/module/_catalog.scss","webpack://./src/public/styles/module/_cart.scss","webpack://./src/public/styles/module/_orderForm.scss","webpack://./src/public/styles/module/_productPage.scss","webpack://./src/public/styles/module/_footer.scss"],"names":[],"mappings":"AAGA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,+BAAA;AAFJ;;AAKA;EACI,iBAAA;ECVA,aAAA;EACA,sBDUmB;AADvB;;AAIA;EACI,YAAA;AADJ;;AAIA;EACI,iBEpBkB;EFqBlB,eAAA;EACA,cAAA;AADJ;;AAIA;EACI,gBAAA;EACA,qBAAA;AADJ;;AAIA;EACI,gBAAA;EACA,eAAA;EACA,qBAAA;AADJ;;AAIA;EACI,eAAA;EACA,qBAAA;AADJ;;AAIA;EACI,WAAA;EACA,sBAAA;EACA,kBAAA;EACA,iBAAA;AADJ;;AG5CA;EACI,gBAAA;EACA,2BAAA;AH+CJ;AG7CI;EFHA,aAAA;EACA,uBAYyD;EARzD,uBEDkB;EFElB,mBEF0B;EFM1B,iBAG8E;AD0ClF;AGjDQ;EACI,iBAAA;AHmDZ;;AI3DA;EACI,YAAA;EACA,kBAAA;EACA,mBFCkB;EEAlB,sBAAA;EACA,gBAAA;EACA,gBAAA;AJ8DJ;AI5DI;EACI,YAAA;EACA,aAAA;AJ8DR;AI3DI;EACI,2CAAA;AJ6DR;AI3DQ;EACI,UAAA;AJ6DZ;AIzDI;EHpBA,aAAA;EACA,uBAYyD;EARzD,uBGgBkB;EHflB,mBGe0B;EHX1B,iBAG8E;ADuElF;AI5DI;EACI,kBAAA;EACA,MAAA;EACA,QAAA;EACA,OAAA;EACA,aAAA;EACA,kCAAA;EACA,UAAA;EACA,gBAAA;AJ8DR;AI5DQ;EACI,kBAAA;AJ8DZ;AI3DgB;EACI,uBAAA;AJ6DpB;AI1DgB;EACI,WAAA;AJ4DpB;AIzDgB;EH1BZ,gBG2BoC;EH1BpC,eG0ByC;EHzBzC,iBGyB+C;EHxB/C,YGwBqD;AJ8DzD;AIxDI;EACI,sBAAA;EACA,gBAAA;EACA,2BAAA;AJ0DR;AIxDQ;EHtCJ,gBGuC4B;EHtC5B,eGsCiC;EHrCjC,iBGqCuC;EHpCvC,YGoC6C;EACrC,eAAA;AJ6DZ;AI3DY;EACI,cFvDF;AFoHd;AIzDQ;EH/CJ,gBGgD4B;EH/C5B,eG+CiC;EH9CjC,iBG8CuC;EH7CvC,cG6C6C;EACrC,gBAAA;EACA,mBAAA;AJ8DZ;AI3DQ;EHrDJ,gBGsD4B;EHrD5B,eGqDiC;EHpDjC,iBGoDuC;EHnDvC,cCjBU;AFoId;;AK3IA;EJCI,aAAA;EACA,uBAYyD;EARzD,uBIJc;EJKd,mBILsB;EJStB,iBAG8E;EIX9E,8CAAA;EACA,YAAA;ALiJJ;AK/II;EACI,gBAAA;ALiJR;AK9II;EACI,WAAA;EACA,wBAAA;ALgJR;AK7II;EJdA,aAAA;EACA,uBAYyD;EARzD,8BIUkB;EJTlB,mBISiC;EJLjC,iBAG8E;ADqJlF;AKjJQ;EJGJ,gBIF4B;EJG5B,eIHiC;EJIjC,iBIJuC;EJKvC,YIL6C;EACrC,eAAA;ALsJZ;AKpJY;EACI,cHdF;AFoKd;AKlJQ;EACI,YAAA;EACA,gBAAA;ALoJZ;AKlJY;EACI,uBAAA;ALoJhB;AK/II;EACI,gBAAA;ALiJR;AK/IQ;EACI,aAAA;EACA,uBAAA;EACA,qCAAA;EACA,aAAA;EACA,gCAAA;ALiJZ;AK/IY;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;ALiJhB;AK/IgB;EACI,gBAAA;EACA,YAAA;EACA,gBAAA;EACA,eAAA;ALiJpB;;AMzMA;EAKI,eAAA;ANwMJ;AM5MI;ELAA,aAAA;EACA,uBAYyD;EARzD,uBKJkB;ELKlB,mBKL0B;ELS1B,iBAG8E;ADsMlF;AM7MI;EACI,kBAAA;AN+MR;AM7MQ;ELWJ,gBKV4B;ELW5B,eKXiC;ELYjC,iBKZuC;ELavC,cKb6C;ANkNjD;AM/MgB;EACI,cJNN;AFuNd;AM9MgB;EACI,aJVN;AF0Nd;AM5MY;EACI,cAAA;EACA,gBAAA;AN8MhB;AM5MgB;EACI,iBAAA;EACA,aAAA;AN8MpB;AM1MY;EACI,kBAAA;EACA,UAAA;EACA,eAAA;AN4MhB;AM1MgB;EACI,iBAAA;AN4MpB;;AOnPA;EACI,yBLCiB;EKAjB,eAAA;APsPJ;AOpPI;ENHA,aAAA;EACA,uBAYyD;EARzD,8BMDkB;ENElB,mBMFiC;ENMjC,iBAG8E;ADiPlF;AOvPI;ENPA,aAAA;EACA,uBAYyD;EARzD,uBMGkB;ENFlB,mBME0B;ENE1B,iBAG8E;ADwPlF;AO3PQ;EACI,kBAAA;EACA,eAAA;AP6PZ;AOzPI;EACI,kBAAA;EACA,UAAA;AP2PR;AOxPY;ENrBR,aAAA;EACA,uBAYyD;EARzD,uBMiB0B;ENhB1B,mBMgBkC;ENZlC,iBAG8E;ADuQlF;AO3PY;EACI,qBAAA;AP6PhB;AO3PgB;EACI,eAAA;AP6PpB;AO1PgB;EACI,kBAAA;AP4PpB;AQ5RI;EACI,UAAA;EACA,YAAA;EACA,sBAAA;EACA,QAAA;EACA,kBAAA;EACA,aAAA;EAEA,mBAAA;EACA,kBAAA;EACA,uCAAA;AR6RR;AQ1RY;EPdR,aAAA;EACA,sBOc0C;EPV1C,uBOU0B;EPT1B,mBOSkC;EPLlC,iBAG8E;EOGlE,QAAA;ARgShB;AQ5RQ;EACI,iBAAA;AR8RZ;AQ5RY;EPvBR,aAAA;EACA,uBAYyD;EARzD,8BOmB0B;EPlB1B,mBOkByC;EPdzC,iBAG8E;EOYlE,SAAA;ARkShB;AQ/RY;EACI,yBAAA;EACA,kBAAA;ARiShB;AQ/RgB;EPhCZ,aAAA;EACA,uBAYyD;EARzD,uBO4B8B;EP3B9B,mBO2BsC;EPvBtC,iBAG8E;ADyTlF;AQnSoB;EACI,kBAAA;EPhBpB,gBOiBwC;EPhBxC,eOgB6C;EPf7C,iBOemD;EPdnD,cOcyD;ARwS7D;AQhSA;EACI,kBAAA;EACA,UAAA;EACA,SAAA;EACA,UAAA;EAEA,oBAAA;EACA,mBAAA;EAEA,YAAA;EACA,WAAA;EPvDA,aAAA;EACA,uBAYyD;EARzD,uBOoDc;EPnDd,mBOmDsB;EP/CtB,iBAG8E;EAO9E,gBOuCoB;EPtCpB,eOsCyB;EPrCzB,iBOqC+B;EPpC/B,cOoCqC;ARqSzC;AQlSA;EAEI;IACI,aAAA;ERmSN;EQhSE;IACI,aAAA;ERkSN;AACF;;AO9TA;EAEQ;IN5CJ,aAAA;IACA,uBAYyD;IARzD,uBMwCsB;INvCtB,mBMuC8B;INnC9B,iBAG8E;EDoWhF;EOjUM;IACI,WAAA;EPmUV;EOjUU;IACI,aAAA;EPmUd;AACF;ASxXI;EACI,yBPEc;AFwXtB;ASxXQ;ERHJ,aAAA;EACA,uBAYyD;EARzD,8BQDsB;EREtB,mBQFqC;ERMrC,iBAG8E;ADqXlF;AS5XY;ERcR,gBQbgC;ERchC,eQdqC;ERerC,iBQf2C;ERgB3C,cQhBiD;EACrC,eAAA;ATiYhB;;ASxXI;EACI,gBAAA;EACA,mBAAA;ERnBJ,aAAA;EACA,uBQoBkC;ERhBlC,uBQgBkB;ERflB,mBQe0B;ERX1B,eQW2C;EACvC,SAAA;AT8XR;;AUpZI;EACI,yBREc;AFqZtB;AUrZQ;ETHJ,aAAA;EACA,uBAYyD;EARzD,8BSDsB;ETEtB,mBSFqC;ETMrC,iBAG8E;ADkZlF;AUzZY;ETcR,gBSbgC;ETchC,eSdqC;ETerC,iBSf2C;ETgB3C,cShBiD;EACrC,eAAA;AV8ZhB;AUzZI;EACI,eAAA;AV2ZR;AUzZQ;EACI,aAAA;EACA,uBAAA;EACA,eAAA;AV2ZZ;AUzZY;EACI,cAAA;EACA,aAAA;EACA,8BAAA;AV2ZhB;AUzZgB;EACI,mBRxBE;EQyBF,yCAAA;EACA,sBAAA;EACA,kBAAA;ETVhB,gBSWoC;ETVpC,eSUyC;ETTzC,iBSS+C;ETR/C,YSQqD;AV8ZzD;AU5ZoB;EACI,yBAAA;EACA,mBR3BV;EDYV,gBSgBwC;ETfxC,eSe6C;ETd7C,iBScmD;ETbnD,YSayD;AVia7D;AU5ZY;EACI,UAAA;AV8ZhB;AU5ZgB;EACI,aAAA;EACA,sBAAA;EACA,SAAA;AV8ZpB;AU3ZgB;ETlDZ,aAAA;EACA,uBAYyD;EARzD,8BS8C8B;ET7C9B,mBS6C6C;ETzC7C,iBAG8E;ADuclF;AU/ZoB;ETrDhB,aAAA;EACA,uBAYyD;EARzD,uBSiDkC;EThDlC,mBSgD0C;ET5C1C,iBAG8E;ES0C1D,YAAA;EACA,YAAA;AVqaxB;;AW9dA;EACI,MAAA;EACA,SAAA;EACA,QAAA;EACA,OAAA;EACA,8BAAA;EACA,eAAA;AXieJ;AW/dI;EACI,aAAA;AXieR;AW9dI;EACI,aAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;EAEA,cAAA;EAEA,aAAA;EACA,sBAAA;EACA,uBAAA;AX8dR;AW5dQ;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AX8dZ;AW5dY;EVTR,gBUUgC;EVThC,eUSqC;EVRrC,iBUQ2C;EVP3C,cUOiD;EACrC,mBAAA;AXiehB;AW9dY;EACI,gBAAA;EACA,gBAAA;EACA,sBAAA;EACA,yBAAA;AXgehB;AW9dgB;EACI,kBAAA;AXgepB;AW5dY;EACI,gBAAA;AX8dhB;AW1dQ;EACI,gBAAA;EACA,aAAA;EACA,uBAAA;AX4dZ;AW1dY;EACI,mBThDF;ESiDE,yBAAA;EACA,sBAAA;EACA,kBAAA;EVvCZ,gBUwCgC;EVvChC,eUuCqC;EVtCrC,iBUsC2C;EVrC3C,YUqCiD;AX+drD;;AY3hBI;EACI,mBAAA;AZ8hBR;AY3hBI;EACI,yBVFc;AF+hBtB;AY3hBQ;EXPJ,aAAA;EACA,uBAYyD;EARzD,8BWGsB;EXFtB,mBWEqC;EXErC,iBAG8E;AD4hBlF;AY/hBY;EXUR,gBWTgC;EXUhC,eWVqC;EXWrC,iBWX2C;EXY3C,cWZiD;EACrC,eAAA;AZoiBhB;AY7hBQ;EXnBJ,aAAA;EACA,sBWmBsC;EXftC,uBWesB;EXdtB,mBWc8B;EXV9B,iBAG8E;AD0iBlF;AY/hBI;EACI,gBAAA;EACA,iBAAA;EACA,yBAAA;AZiiBR;AY9hBI;EACI,yBAAA;EACA,uBAAA;AZgiBR;AY9hBQ;EXlCJ,aAAA;EACA,sBWkCsC;EX9BtC,uBW8BsB;EX7BtB,mBW6B8B;EXzB9B,iBAG8E;AD0jBlF;AYliBY;EXjBR,gBWkBgC;EXjBhC,eWiBqC;EXhBrC,iBWgB2C;EXf3C,cWeiD;EACrC,gBAAA;EACA,mBAAA;AZuiBhB;AYpiBY;EACI,2BAAA;EACA,yBAAA;EACA,WAAA;EACA,mBAAA;AZsiBhB;AYniBY;EACI,gBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;AZqiBhB;AYliBY;EACI,kBAAA;EACA,YAAA;EACA,eAAA;EACA,iBAAA;EACA,kBAAA;EACA,cAAA;AZoiBhB;AYjiBY;EACI,gBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;AZmiBhB;AYhiBY;EACI,2BAAA;EACA,yBAAA;EACA,YAAA;EACA,mBAAA;AZkiBhB;AY/hBY;EACI,mBAAA;AZiiBhB;AY/hBgB;EACI,yBAAA;AZiiBpB;AY9hBgB;EACI,aAAA;AZgiBpB;AY7hBgB;EXzEZ,gBW0EoC;EXzEpC,eWyEyC;EXxEzC,iBWwE+C;EXvE/C,cWuEqD;AZkiBzD;;AahoBI;EACI,yDAAA;EACA,4BAAA;EACA,2BAAA;EACA,0BAAA;EACA,iBAAA;AbmoBR;AajoBQ;EZPJ,aAAA;EACA,uBAYyD;EARzD,uBYGsB;EZFtB,mBYE8B;EZE9B,iBAG8E;ADkoBlF;AanoBI;EACI,gBAAA;EACA,gBAAA;AbqoBR;AanoBQ;EZhBJ,aAAA;EACA,sBYgBsC;EZZtC,uBYYsB;EZXtB,mBYW8B;EZP9B,iBAG8E;AD6oBlF;AavoBY;EACI,mBAAA;AbyoBhB;AatoBY;EZHR,gBYIgC;EZHhC,eYGqC;EZFrC,iBYE2C;EZD3C,cYCiD;EACrC,kBAAA;Ab2oBhB;AatoBI;EACI,iBAAA;AbwoBR;AatoBQ;EZjCJ,aAAA;EACA,sBYiCsC;EZ7BtC,uBY6BsB;EZ5BtB,mBY4B8B;EZxB9B,iBAG8E;ADiqBlF;Aa1oBY;EZhBR,gBYiBgC;EZhBhC,eYgBqC;EZfrC,mBYe2C;EZd3C,cYcmD;EACvC,kBAAA;Ab+oBhB;Aa5oBY;EZrBR,gBYsBgC;EZrBhC,eYqBqC;EZpBrC,mBYoB2C;EZnB3C,cYmBmD;EACvC,kBAAA;EACA,mBAAA;AbipBhB;Aa5oBgB;EACI,aAAA;Ab8oBpB;Aa5oBoB;EACI,kBAAA;EACA,mBAAA;EACA,sBAAA;EACA,yBAAA;EACA,4BAAA;EACA,YAAA;EACA,YAAA;Ab8oBxB;Aa3oBoB;EACI,YAAA;EACA,YAAA;EACA,mBXzDV;EW0DU,yBAAA;EACA,sBAAA;EACA,4BAAA;EAEA,eAAA;EACA,iBAAA;EACA,YAAA;Ab4oBxB;AaroBI;EACI,yBX3EqB;EW4ErB,gBAAA;AbuoBR;AaroBQ;EZnFJ,aAAA;EACA,uBAYyD;EARzD,8BY+EsB;EZ9EtB,mBY8EqC;EZ1ErC,iBAG8E;ADktBlF;AazoBY;EACI,gBAAA;Ab2oBhB;AazoBgB;EACI,eAAA;EACA,iBAAA;EACA,cAAA;Ab2oBpB;AavoBY;EACI,gBAAA;AbyoBhB;AavoBgB;EZnGZ,aAAA;EACA,uBAYyD;EARzD,uBY+F8B;EZ9F9B,mBY8FsC;EZ1FtC,iBAG8E;ADouBlF;Aa1oBgB;EACI,qBAAA;EACA,WAAA;EACA,YAAA;EACA,yBAAA;Ab4oBpB;Aa1oBoB;EZ7GhB,aAAA;EACA,uBAYyD;EARzD,uBYyGkC;EZxGlC,mBYwG0C;EZpG1C,iBAG8E;ADivBlF;Aa9oBwB;EACI,WAAA;AbgpB5B;Aa7oBwB;EACI,iBAAA;Ab+oB5B;Aa5oBwB;EACI,mBXjHd;AF+vBd;Aa5oB4B;EACI,WAAA;Ab8oBhC;;AapoBA;EAEQ;IACI,yDAAA;IACA,4BAAA;IACA,2BAAA;IACA,sBAAA;IACA,iBAAA;EbsoBV;EapoBU;IZ/IR,aAAA;IACA,sBY+I0C;IZ3I1C,uBY2I0B;IZ1I1B,mBY0IkC;IZtIlC,iBAG8E;ED6wBhF;EatoBM;IACI,gBAAA;IACA,gBAAA;EbwoBV;EatoBU;IZxJR,aAAA;IACA,sBYwJ0C;IZpJ1C,uBYoJ0B;IZnJ1B,mBYmJkC;IZ/IlC,iBAG8E;EDwxBhF;Ea1oBc;IACI,mBAAA;Eb4oBlB;EazoBc;IZ3IZ,gBY4IoC;IZ3IpC,eY2IyC;IZ1IzC,iBY0I+C;IZzI/C,cYyIqD;IACrC,kBAAA;Eb8oBlB;EazoBM;IACI,gBAAA;IACA,oBAAA;Eb2oBV;EazoBU;IZ1KR,aAAA;IACA,sBY0K0C;IZtK1C,uBYsK0B;IZrK1B,mBYqKkC;IZjKlC,iBAG8E;ED6yBhF;Ea7oBc;IZzJZ,gBY0JoC;IZzJpC,eYyJyC;IZxJzC,mBYwJ+C;IZvJ/C,cYuJuD;IACvC,kBAAA;EbkpBlB;Ea/oBc;IZ9JZ,gBY+JoC;IZ9JpC,eY8JyC;IZ7JzC,mBY6J+C;IZ5J/C,cY4JuD;IACvC,kBAAA;IACA,mBAAA;EbopBlB;Ea/oBkB;IACI,aAAA;EbipBtB;Ea/oBsB;IACI,kBAAA;IACA,mBAAA;IACA,sBAAA;IACA,yBAAA;IACA,4BAAA;IACA,YAAA;IACA,YAAA;EbipB1B;Ea9oBsB;IACI,YAAA;IACA,YAAA;IACA,mBXlMd;IWmMc,yBAAA;IACA,sBAAA;IACA,4BAAA;IAEA,eAAA;IACA,iBAAA;IACA,YAAA;Eb+oB1B;AACF;AavoBA;EAGQ;IACI,gBAAA;IACA,oBAAA;EbuoBV;EapoBM;IACI,yBX9NiB;IW+NjB,iBAAA;EbsoBV;EapoBU;IZtOR,aAAA;IACA,8BYsO0C;IZlO1C,uBYkO0B;IZjO1B,mBYiOkC;IZ7NlC,iBAG8E;EDo2BhF;EaxoBc;IACI,gBAAA;Eb0oBlB;EaxoBkB;IACI,eAAA;IACA,iBAAA;IACA,cAAA;Eb0oBtB;EatoBc;IACI,gBAAA;EbwoBlB;EatoBkB;IZtPhB,aAAA;IACA,uBAYyD;IARzD,uBYkPkC;IZjPlC,mBYiP0C;IZ7O1C,iBAG8E;EDs3BhF;EazoBkB;IACI,qBAAA;IACA,WAAA;IACA,YAAA;IACA,yBAAA;Eb2oBtB;EazoBsB;IZhQpB,aAAA;IACA,uBAYyD;IARzD,uBY4PsC;IZ3PtC,mBY2P8C;IZvP9C,iBAG8E;EDm4BhF;Ea7oB0B;IACI,WAAA;Eb+oB9B;Ea5oB0B;IACI,iBAAA;Eb8oB9B;Ea3oB0B;IACI,mBXpQlB;EFi5BZ;Ea3oB8B;IACI,WAAA;Eb6oBlC;AACF","sourcesContent":["@import \"module/var\";\r\n@import \"module/mixin\";\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    font-family: 'Lato', sans-serif;\r\n}\r\n\r\n.wrapper {\r\n    min-height: 100vh;\r\n    @include flex-init(column);\r\n}\r\n\r\n.wrapper__top {\r\n    flex-grow: 1;\r\n}\r\n\r\n.container {\r\n    max-width: $container-max-width;\r\n    padding: 0 10px;\r\n    margin: 0 auto;\r\n}\r\n\r\na:hover {\r\n    transition: 0.3s;\r\n    transform: scale(1.1);\r\n}\r\n\r\nbutton:hover {\r\n    transition: 0.3s;\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n}\r\n\r\nlabel:hover {\r\n    cursor: pointer;\r\n    transform: scale(1.1);\r\n}\r\n\r\n.search-input {\r\n    width: 100%;\r\n    border: 1px solid teal;\r\n    padding: 10px 15px;\r\n    margin-left: 10px\r\n}\r\n\r\n@import \"module/addBtn\";\r\n@import \"module/product\";\r\n@import \"module/cartItem\";\r\n@import \"module/filter\";\r\n@import \"module/header\";\r\n@import \"module/catalog\";\r\n@import \"module/cart\";\r\n@import \"module/orderForm\";\r\n@import \"module/productPage\";\r\n@import \"module/footer\";","@mixin flex-init($flex-direction: initial) {\r\n    display: flex;\r\n    flex-direction: $flex-direction;\r\n}\r\n\r\n@mixin flex-alignment($justify-content, $align-items) {\r\n    justify-content: $justify-content;\r\n    align-items: $align-items;\r\n}\r\n\r\n@mixin flex-wrap($flex-wrap: nowrap) {\r\n    flex-wrap: $flex-wrap;\r\n}\r\n\r\n@mixin flex($justify-content, $align-items, $flex-direction: initial, $flex-wrap: nowrap) {\r\n    @include flex-init($flex-direction);\r\n    @include flex-alignment($justify-content, $align-items);\r\n    @include flex-wrap($flex-wrap);\r\n}\r\n\r\n@mixin text-decor($font-weight, $font-size, $line-height, $color: black) {\r\n    font-weight: $font-weight;\r\n    font-size: $font-size;\r\n    line-height: $line-height;\r\n    color: $color;\r\n}\r\n\r\n@mixin min-max-box($min-width: none, $max-width: none, $min-height: none, $max-height: none) {\r\n    min-width: $min-width;\r\n    max-width: $max-width;\r\n    min-height: $min-height;\r\n    max-height: $max-height;\r\n}","$container-max-width: 1160px;\r\n\r\n$header-bcgnd-color: #222222;\r\n$promo-bcgnd-color: #F1E4E6;\r\n$product-bcgnd-color: #F8F8F8;\r\n$service-bcgnd-color: #222224;\r\n$footer__bottom-bcgnd-color: #222224;\r\n$price-color: #F16D7F;\r\n$span-color: #F16D7F;\r\n$hover-color: #F16D7F;",".add__btn {\r\n    background: none;\r\n    padding: 11px 16px 9px 14px;\r\n\r\n    &--flex {\r\n        @include flex(center, center);\r\n\r\n        span {\r\n            margin-left: 11px;\r\n        }\r\n    }\r\n}",".product {\r\n    width: 360px;\r\n    position: relative;\r\n    background: $product-bcgnd-color;\r\n    box-sizing: border-box;\r\n    overflow: hidden;\r\n    transition: 0.5s;\r\n\r\n    & img {\r\n        width: 360px;\r\n        height: 420px;\r\n    }\r\n\r\n    &:hover {\r\n        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.15);\r\n\r\n        .product__overlay {\r\n            opacity: 1;\r\n        }\r\n    }\r\n\r\n    &__overlay--flex {\r\n        @include flex(center, center);\r\n    }\r\n\r\n    &__overlay {\r\n        position: absolute;\r\n        top: 0;\r\n        right: 0;\r\n        left: 0;\r\n        height: 420px;\r\n        background: rgba(58, 56, 56, 0.86);\r\n        opacity: 0;\r\n        transition: 0.5s;\r\n\r\n        .overlay {\r\n            margin-bottom: 5px;\r\n\r\n            .add__btn--grey {\r\n                button {\r\n                    border: 1px solid white;\r\n                }\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n\r\n                span {\r\n                    @include text-decor(400, 14px, 17px, white);\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    &__container {\r\n        box-sizing: border-box;\r\n        margin-top: 25px;\r\n        padding: 0 28.8px 20px 18px;\r\n\r\n        & h3 {\r\n            @include text-decor(400, 24px, 29px, black);\r\n            cursor: pointer;\r\n\r\n            &:hover {\r\n                color: $hover-color;\r\n            }\r\n        }\r\n\r\n        p {\r\n            @include text-decor(300, 14px, 17px, #5D5D5D);\r\n            margin-top: 13px;\r\n            margin-bottom: 18px;\r\n        }\r\n\r\n        strong {\r\n            @include text-decor(400, 16px, 19px, $price-color);\r\n        }\r\n    }\r\n}",".cart-item {\r\n    //display: flex;\r\n    @include flex(center, center);\r\n    box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);\r\n    padding: 7px;\r\n\r\n    & img {\r\n        max-width: 100px;\r\n    }\r\n\r\n    &__desc {\r\n        width: 100%;\r\n        margin: 12px 12px 0 21px;\r\n    }\r\n\r\n    &__header {\r\n        @include flex(space-between, center);\r\n\r\n        & h3 {\r\n            @include text-decor(400, 24px, 29px, black);\r\n            cursor: pointer;\r\n\r\n            &:hover {\r\n                color: $hover-color;\r\n            }\r\n        }\r\n\r\n        & .button-del {\r\n            border: none;\r\n            background: none;\r\n\r\n            span {\r\n                color: rgb(143, 25, 25);\r\n            }\r\n        }\r\n    }\r\n\r\n    &__body {\r\n        margin-top: 20px;\r\n\r\n        &--grid {\r\n            display: grid;\r\n            justify-content: center;\r\n            grid-template-columns: repeat(3, 1fr);\r\n            grid-gap: 5px;\r\n            border-bottom: 1px solid #ebebeb;\r\n\r\n            .item-quantity {\r\n                display: flex;\r\n                justify-content: center;\r\n                align-items: center;\r\n\r\n                .quantity__btn {\r\n                    padding: 3px 3px;\r\n                    border: none;\r\n                    background: none;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n}",".filters {\r\n    &--flex {\r\n        @include flex(center, center);\r\n    }\r\n\r\n    padding: 15px 0;\r\n\r\n    .check-filter {\r\n        position: relative;\r\n\r\n        & details {\r\n            @include text-decor(400, 17px, 19px, #6f6e6e);\r\n\r\n            &[open] {\r\n                & summary {\r\n                    color: $hover-color;\r\n                }\r\n\r\n                & svg {\r\n                    fill: $hover-color;\r\n                }\r\n            }\r\n\r\n            & summary {\r\n                display: block;\r\n                list-style: none;\r\n\r\n                & svg {\r\n                    margin-left: 11px;\r\n                    fill: #6f6e6e;\r\n                }\r\n            }\r\n\r\n            .check-list {\r\n                position: absolute;\r\n                z-index: 4;\r\n                margin-top: 5px;\r\n\r\n                & input {\r\n                    margin-right: 9px;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",".header {\r\n    background-color: $header-bcgnd-color;\r\n    padding: 19px 0;\r\n\r\n    &__wrap {\r\n        @include flex(space-between, center);\r\n    }\r\n\r\n    &__left {\r\n        @include flex(center, center);\r\n\r\n        .logo__link {\r\n            margin-right: 41px;\r\n            cursor: pointer;\r\n        }\r\n    }\r\n\r\n    &__right {\r\n        position: relative;\r\n        z-index: 1;\r\n\r\n        .nav {\r\n            &_flex {\r\n                @include flex(center, center);\r\n            }\r\n\r\n            &__item {\r\n                display: inline-block;\r\n\r\n                &:hover {\r\n                    cursor: pointer;\r\n                }\r\n\r\n                &:not(:last-child) {\r\n                    margin-right: 33px;\r\n                }\r\n\r\n                @import \"_miniCart\";\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 426px) {\r\n    .nav {\r\n        &_flex {\r\n            @include flex(center, center);\r\n        }\r\n\r\n        &__item {\r\n            margin: 0px;\r\n\r\n            .account__link {\r\n                display: none;\r\n            }\r\n        }\r\n    }\r\n}",".cart {\r\n\r\n    &__table {\r\n        z-index: 2;\r\n        width: 520px;\r\n        box-sizing: border-box;\r\n        right: 0;\r\n        position: absolute;\r\n        padding: 15px;\r\n\r\n        background: #FFFFFF;\r\n        border-radius: 5px;\r\n        box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);\r\n\r\n        .cart__top {\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n                gap: 5px;\r\n            }\r\n        }\r\n\r\n        .cart__bottom {\r\n            padding-top: 10px;\r\n\r\n            &--flex {\r\n                @include flex(space-between, center);\r\n                gap: 20px;\r\n            }\r\n\r\n            .cart__link {\r\n                border: 1px solid #22222E;\r\n                padding: 10px 15px;\r\n\r\n                &_flex {\r\n                    @include flex(center, center);\r\n\r\n                    p {\r\n                        text-align: center;\r\n                        @include text-decor(400, 16px, 19px, #22222E);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.counter {\r\n    position: absolute;\r\n    z-index: 2;\r\n    top: -20%;\r\n    right: -5%;\r\n\r\n    border-radius: 200px;\r\n    background: #F16D7F;\r\n\r\n    height: 19px;\r\n    width: 19px;\r\n\r\n    @include flex(center, center);\r\n\r\n    @include text-decor(400, 12px, 14px, #FFFFFF);\r\n}\r\n\r\n@media(max-width: 426px) {\r\n\r\n    .cart {\r\n        display: none;\r\n    }\r\n\r\n    .quant {\r\n        display: none;\r\n    }\r\n}",".catalog {\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n.products-list {\r\n    &__wrap {\r\n        margin-top: 64px;\r\n        margin-bottom: 48px;\r\n\r\n        @include flex(center, center, initial, wrap);\r\n        gap: 30px;\r\n    }\r\n}",".cart {\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__main {\r\n        padding: 40px 0;\r\n\r\n        &--flex {\r\n            display: flex;\r\n            justify-content: center;\r\n            flex-wrap: wrap;\r\n\r\n            .cart__items-btns {\r\n                margin: 20px 0;\r\n                display: flex;\r\n                justify-content: space-between;\r\n\r\n                & button {\r\n                    background: $product-bcgnd-color;\r\n                    border: 1px solid rgba(51, 46, 46, 0.438);\r\n                    box-sizing: border-box;\r\n                    padding: 16px 40px;\r\n                    @include text-decor(400, 14px, 17px, black);\r\n\r\n                    &:hover {\r\n                        border: 1px solid $hover-color;\r\n                        background: $hover-color;\r\n                        @include text-decor(400, 14px, 17px, white);\r\n                    }\r\n                }\r\n            }\r\n\r\n            .cart__items {\r\n                width: 70%;\r\n\r\n                &--flex {\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: 30px;\r\n                }\r\n\r\n                &-btns {\r\n                    @include flex(space-between, center);\r\n\r\n                    & button {\r\n                        @include flex(center, center);\r\n                        width: 220px;\r\n                        height: 48px;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",".shopform {\r\n    top: 0;\r\n    bottom: 0;\r\n    right: 0;\r\n    left: 0;\r\n    background: rgba(0, 0, 0, 0.5);\r\n    position: fixed;\r\n\r\n    &--flex {\r\n        display: flex;\r\n    }\r\n\r\n    form {\r\n        padding: 20px;\r\n        margin: auto;\r\n        background: white;\r\n        border-radius: 10px;\r\n\r\n        max-width: 50%;\r\n\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n\r\n        .shopform__item {\r\n            display: flex;\r\n            flex-direction: column;\r\n            justify-content: center;\r\n            align-items: center;\r\n\r\n            h3 {\r\n                @include text-decor(400, 17px, 22px, #22222E);\r\n                margin-bottom: 12px;\r\n            }\r\n\r\n            input {\r\n                max-width: 360px;\r\n                min-height: 38px;\r\n                box-sizing: border-box;\r\n                padding: 13px 0 16px 17px;\r\n\r\n                &:not(:last-child) {\r\n                    margin-bottom: 8px;\r\n                }\r\n            }\r\n\r\n            &:not(:first-child) {\r\n                margin-top: 12px;\r\n            }\r\n        }\r\n\r\n        .buy-btn {\r\n            margin-top: 15px;\r\n            display: flex;\r\n            justify-content: center;\r\n\r\n            & button {\r\n                background: $hover-color;\r\n                border: 1px solid #F16D7F;\r\n                box-sizing: border-box;\r\n                padding: 16px 40px;\r\n                @include text-decor(400, 14px, 17px, white);\r\n            }\r\n        }\r\n    }\r\n}",".product-page {\r\n    &--box {\r\n        margin-bottom: 10px;\r\n    }\r\n\r\n    &__header {\r\n        background-color: $product-bcgnd-color;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            h1 {\r\n                @include text-decor(400, 24px, 29px, #F16D7F);\r\n                padding: 60px 0;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__body {\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n        }\r\n    }\r\n\r\n    &__img {\r\n        max-width: 450px;\r\n        min-height: 500px;\r\n        border: 2px solid $product-bcgnd-color;\r\n    }\r\n\r\n    &__desc {\r\n        border: 1px solid #EAEAEA;\r\n        background-color: white;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            h2 {\r\n                @include text-decor(400, 19px, 22px, #F16D7F);\r\n                margin-top: 64px;\r\n                margin-bottom: 12px;\r\n            }\r\n\r\n            .line__red {\r\n                border: 1.5px solid #F16D7F;\r\n                background-color: #F16D7F;\r\n                width: 63px;\r\n                margin-bottom: 50px;\r\n            }\r\n\r\n            & h3 {\r\n                margin-top: 12px;\r\n                margin-bottom: 48px;\r\n                font-size: 18px;\r\n                line-height: 22px;\r\n                color: #4D4D4D;\r\n            }\r\n\r\n            & p {\r\n                margin-top: 0 auto;\r\n                width: 565px;\r\n                font-size: 14px;\r\n                line-height: 17px;\r\n                text-align: center;\r\n                color: #5E5E5E;\r\n            }\r\n\r\n            & strong {\r\n                margin-top: 32px;\r\n                margin-bottom: 64px;\r\n                font-size: 24px;\r\n                line-height: 29px;\r\n                color: #EF5B70;\r\n            }\r\n\r\n            .line__grey {\r\n                border: 1.5px solid #EAEAEA;\r\n                background-color: #EAEAEA;\r\n                width: 642px;\r\n                margin-bottom: 64px;\r\n            }\r\n\r\n            .add__btn--red {\r\n                margin-bottom: 64px;\r\n\r\n                button {\r\n                    border: 1px solid #F16D7F;\r\n                }\r\n\r\n                svg {\r\n                    fill: #F16D7F;\r\n                }\r\n\r\n                span {\r\n                    @include text-decor(400, 14px, 17px, #F16D7F);\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",".footer {\r\n    &__top {\r\n        background-image: url(../assets/footer-top.png);\r\n        background-repeat: no-repeat;\r\n        background-position: center;\r\n        background-size: 100% 100%;\r\n        min-height: 448px;\r\n\r\n        &--flex {\r\n            @include flex(center, center);\r\n        }\r\n    }\r\n\r\n    &__comment {\r\n        margin-top: 97px;\r\n        max-width: 360px;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            img {\r\n                margin-bottom: 30px;\r\n            }\r\n\r\n            p {\r\n                @include text-decor(400, 20px, 24px, #222224);\r\n                text-align: center;\r\n            }\r\n        }\r\n    }\r\n\r\n    &__subscribe {\r\n        margin-top: 150px;\r\n\r\n        &--flex {\r\n            @include flex(center, center, column);\r\n\r\n            h3 {\r\n                @include text-decor(700, 24px, 167.2%, #222224);\r\n                text-align: center;\r\n            }\r\n\r\n            p {\r\n                @include text-decor(400, 18px, 167.2%, #222224);\r\n                text-align: center;\r\n                margin-bottom: 32px;\r\n            }\r\n\r\n            .subscribe__form {\r\n\r\n                &--flex {\r\n                    display: flex;\r\n\r\n                    input {\r\n                        padding-left: 22px;\r\n                        background: #E1E1E1;\r\n                        box-sizing: border-box;\r\n                        border: 1px solid #E1E1E1;\r\n                        border-radius: 15px 0 0 15px;\r\n                        height: 49px;\r\n                        width: 256px;\r\n                    }\r\n\r\n                    button {\r\n                        height: 49px;\r\n                        width: 100px;\r\n                        background: $hover-color;\r\n                        border: 1px solid #F16D7F;\r\n                        box-sizing: border-box;\r\n                        border-radius: 0 15px 15px 0;\r\n\r\n                        font-size: 14px;\r\n                        line-height: 17px;\r\n                        color: white;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    &__bottom {\r\n        background-color: $footer__bottom-bcgnd-color;\r\n        min-height: 79px;\r\n\r\n        &--flex {\r\n            @include flex(space-between, center);\r\n\r\n            .rights-reserved {\r\n                margin-top: 30px;\r\n\r\n                p {\r\n                    font-size: 16px;\r\n                    line-height: 19px;\r\n                    color: #FBFBFB;\r\n                }\r\n            }\r\n\r\n            .social-networks {\r\n                margin-top: 24px;\r\n\r\n                &--flex {\r\n                    @include flex(center, center);\r\n                }\r\n\r\n                &__link {\r\n                    text-decoration: none;\r\n                    width: 32px;\r\n                    height: 32px;\r\n                    background-color: #FFFFFF;\r\n\r\n                    &--flex {\r\n                        @include flex(center, center);\r\n\r\n                        .network-icon {\r\n                            fill: black;\r\n                        }\r\n\r\n                        &:not(:last-child) {\r\n                            margin-right: 7px;\r\n                        }\r\n\r\n                        &:hover {\r\n                            background: $hover-color;\r\n\r\n                            .network-icon {\r\n                                fill: white;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 768px) {\r\n    .footer {\r\n        &__top {\r\n            background-image: url(../assets/footer-top.png);\r\n            background-repeat: no-repeat;\r\n            background-position: center;\r\n            background-size: cover;\r\n            min-height: 448px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n            }\r\n        }\r\n\r\n        &__comment {\r\n            margin-top: 64px;\r\n            max-width: 360px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n\r\n                img {\r\n                    margin-bottom: 30px;\r\n                }\r\n\r\n                p {\r\n                    @include text-decor(400, 20px, 24px, #222224);\r\n                    text-align: center;\r\n                }\r\n            }\r\n        }\r\n\r\n        &__subscribe {\r\n            margin-top: 48px;\r\n            margin-bottom: 140px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column);\r\n\r\n                h3 {\r\n                    @include text-decor(700, 24px, 167.2%, #222224);\r\n                    text-align: center;\r\n                }\r\n\r\n                p {\r\n                    @include text-decor(400, 18px, 167.2%, #222224);\r\n                    text-align: center;\r\n                    margin-bottom: 32px;\r\n                }\r\n\r\n                .subscribe__form {\r\n\r\n                    &--flex {\r\n                        display: flex;\r\n\r\n                        input {\r\n                            padding-left: 22px;\r\n                            background: #E1E1E1;\r\n                            box-sizing: border-box;\r\n                            border: 1px solid #E1E1E1;\r\n                            border-radius: 15px 0 0 15px;\r\n                            height: 49px;\r\n                            width: 256px;\r\n                        }\r\n\r\n                        button {\r\n                            height: 49px;\r\n                            width: 100px;\r\n                            background: $hover-color;\r\n                            border: 1px solid #F16D7F;\r\n                            box-sizing: border-box;\r\n                            border-radius: 0 15px 15px 0;\r\n\r\n                            font-size: 14px;\r\n                            line-height: 17px;\r\n                            color: white;\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@media(max-width: 426px) {\r\n    .footer {\r\n\r\n        &__subscribe {\r\n            margin-top: 48px;\r\n            margin-bottom: 109px;\r\n        }\r\n\r\n        .footer__bottom {\r\n            background-color: $footer__bottom-bcgnd-color;\r\n            min-height: 143px;\r\n\r\n            &--flex {\r\n                @include flex(center, center, column-reverse);\r\n\r\n                .rights-reserved {\r\n                    margin-top: 30px;\r\n\r\n                    p {\r\n                        font-size: 16px;\r\n                        line-height: 19px;\r\n                        color: #FBFBFB;\r\n                    }\r\n                }\r\n\r\n                .social-networks {\r\n                    margin-top: 24px;\r\n\r\n                    &--flex {\r\n                        @include flex(center, center);\r\n                    }\r\n\r\n                    &__link {\r\n                        text-decoration: none;\r\n                        width: 32px;\r\n                        height: 32px;\r\n                        background-color: #FFFFFF;\r\n\r\n                        &--flex {\r\n                            @include flex(center, center);\r\n\r\n                            .network-icon {\r\n                                fill: black;\r\n                            }\r\n\r\n                            &:not(:last-child) {\r\n                                margin-right: 7px;\r\n                            }\r\n\r\n                            &:hover {\r\n                                background: $hover-color;\r\n\r\n                                .network-icon {\r\n                                    fill: white;\r\n                                }\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -12597,16 +12597,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    components: {MyHeader: _components_MyHeader_vue__WEBPACK_IMPORTED_MODULE_0__["default"], MyFooter: _components_MyFooter_vue__WEBPACK_IMPORTED_MODULE_1__["default"]},
+    components: { MyHeader: _components_MyHeader_vue__WEBPACK_IMPORTED_MODULE_0__["default"], MyFooter: _components_MyFooter_vue__WEBPACK_IMPORTED_MODULE_1__["default"] },
     methods: {
         ...(0,vuex__WEBPACK_IMPORTED_MODULE_2__.mapActions)({
             GET_JSON: 'api/GET_JSON',
             GET_PRODUCTS: 'catalog/GET_PRODUCTS',
             GET_CART: 'cart/GET_CART'
         }),
-    },
-    computed: {
-
     },
     mounted() {
         this.GET_JSON('/api/products')
@@ -12662,38 +12659,30 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {
-      cartItem: {
-          type: Object,
-          required: true,
-      }
-  },
-  data(){
-      return {
-          
-      }
-  },
-  methods: {
-      ...(0,vuex__WEBPACK_IMPORTED_MODULE_0__.mapActions)({
-          GET_PRODUCT: 'catalog/GET_PRODUCT',
-      }),
-      decrementItem() {
-          this.$emit('decrement')
-      },
-      incrementItem() {
-          this.$emit('increment')
-      },
-      deleteItem(){
-          this.$emit('delete');
-      },
-      goToProduct(){
-          this.GET_PRODUCT(this.cartItem);
-          this.$router.push(`/product/${this.cartItem.id_product}`);
-      }
-  },
-  mounted() {
-      
-  }
+    props: {
+        cartItem: {
+            type: Object,
+            required: true,
+        }
+    },
+    methods: {
+        ...(0,vuex__WEBPACK_IMPORTED_MODULE_0__.mapActions)({
+            GET_PRODUCT: 'catalog/GET_PRODUCT',
+        }),
+        decrementItem() {
+            this.$emit('decrement')
+        },
+        incrementItem() {
+            this.$emit('increment')
+        },
+        deleteItem(){
+            this.$emit('delete');
+        },
+        goToProduct(){
+            this.GET_PRODUCT(this.cartItem);
+            this.$router.push(`/product/${this.cartItem.id_product}`);
+        }
+    }
 });
 
 
@@ -12748,7 +12737,7 @@ __webpack_require__.r(__webpack_exports__);
     components: {CartItem: _CartItem_vue__WEBPACK_IMPORTED_MODULE_0__["default"]},
     data() {
         return {
-
+            urlCart: '/api/cart/'
         }
     },
     props: { 
@@ -12763,28 +12752,37 @@ __webpack_require__.r(__webpack_exports__);
     },
     methods: {
         ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART',
-            REMOVE_PRODUCT_FROM_CART: 'REMOVE_PRODUCT_FROM_CART',
-            DELETE_PRODUCT_FROM_CART: 'DELETE_PRODUCT_FROM_CART',
-            CLEAR_CART: 'CLEAR_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
-       delItem(cartItem){
-            this.DELETE_PRODUCT_FROM_CART(cartItem);
+        delItem(cartItem){
+            this.BUILD_ACT_DESC({
+                action: 'delete',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         increment(cartItem) {
-            this.ADD_PRODUCT_TO_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         remove(cartItem) {
-            this.REMOVE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'remove',
+                data: cartItem,
+                url: `${this.urlCart}`
+            });
         },
-        hideCartMini() {
+        hide() {
             this.$emit("update:show", false);
         }
     },
     computed: {
        ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapGetters)({
             cartTotalCost: 'cart/cartTotalCost',
-            cartTotalCnt: 'cart/cartTotalCnt'
+            cartTotalCnt: 'cart/cartTotalCnt',
         })
     }
 });
@@ -12979,8 +12977,88 @@ __webpack_require__.r(__webpack_exports__);
             cart: 'cart/cart'
         })
     },
-    mounted() {
+});
 
+
+/***/ }),
+
+/***/ "./src/public/components/MyOrderForm.vue":
+/*!***********************************************!*\
+  !*** ./src/public/components/MyOrderForm.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _MyOrderForm_vue_vue_type_template_id_5e15832a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MyOrderForm.vue?vue&type=template&id=5e15832a */ "./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a");
+/* harmony import */ var _MyOrderForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MyOrderForm.vue?vue&type=script&lang=js */ "./src/public/components/MyOrderForm.vue?vue&type=script&lang=js");
+/* harmony import */ var C_Users_yaaza_Desktop_TheBrendShop_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,C_Users_yaaza_Desktop_TheBrendShop_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_MyOrderForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_MyOrderForm_vue_vue_type_template_id_5e15832a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"src/public/components/MyOrderForm.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=script&lang=js":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+    props: {
+        cartData: {
+            type: Array,
+            required: true,
+        },
+        show: {
+            type: Boolean,
+            default: false
+        }
+    },
+    data() {
+        return { 
+            userData: {
+                id: '',
+                items: '',
+                name: '',
+                surname: '',
+                city: '',
+                addr: '',
+                phone: '',
+                email: ''
+            }
+        }
+    },
+    methods: {
+        hide() {
+            this.$emit('update:show', false);
+        },
+        submitOrder($event) {
+            this.userData.id = Date.now();
+            this.$emit('submitOrder',  this.userData);
+            //$event.target.reset();
+            for(let key in this.userData) {
+                this.userData[key] = '';
+            }
+        }
     }
 });
 
@@ -13042,29 +13120,18 @@ __webpack_require__.r(__webpack_exports__);
             required: true,
         }
     },
-  data() {
-    return {
-        
+    methods: {
+        ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
+            GET_PRODUCT: 'catalog/GET_PRODUCT',
+        }), 
+        addToCart() {
+            this.$emit('addToCart', this.product)
+        },
+        goToProduct() {
+            this.GET_PRODUCT(this.product);
+            this.$router.push(`/product/${this.product.id_product}`);
+        }
     }
-  },
-  methods: {
-      ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
-          GET_PRODUCT: 'catalog/GET_PRODUCT',
-      }), 
-      addToCart() {
-          this.$emit('addToCart', this.product)
-      },
-      goToProduct() {
-          this.GET_PRODUCT(this.product);
-          this.$router.push(`/product/${this.product.id_product}`);
-      }
-  },
-  mounted() {
-      
-  },
-  computed: {
-
-  }
 });
 
 
@@ -13125,20 +13192,21 @@ __webpack_require__.r(__webpack_exports__);
     },
     data () {
         return {
-
+            urlCart: '/api/cart/'
         }
     },
     methods: {
         ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
-        addItem(data){
-            this.ADD_PRODUCT_TO_CART(data);
+        addItem(prod){
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: prod,
+                url: `${this.urlCart}`,
+            });
         }
     },
-    computed: {
-
-    }
 });
 
 
@@ -13294,50 +13362,68 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _components_CartItem_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/CartItem.vue */ "./src/public/components/CartItem.vue");
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-bundler.js");
+/* harmony import */ var _components_MyOrderForm_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyOrderForm.vue */ "./src/public/components/MyOrderForm.vue");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-bundler.js");
 
 
-//import MyOrderForm from '../components/MyOrderForm.vue'
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    components: {CartItem: _components_CartItem_vue__WEBPACK_IMPORTED_MODULE_0__["default"]},
+    components: { CartItem: _components_CartItem_vue__WEBPACK_IMPORTED_MODULE_0__["default"], MyOrderForm: _components_MyOrderForm_vue__WEBPACK_IMPORTED_MODULE_1__["default"] },
     data() {
         return {
-            
+            isShowOrderForm: false,
+            urlCart: '/api/cart/',
+            urlOrder: '/api/orders/',
         }
     },
-    props: {    
-      cartData: {
-          type: Array,
-          required: true,
-      }
-    },
     methods: {
-        ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART',
-            REMOVE_PRODUCT_FROM_CART: 'REMOVE_PRODUCT_FROM_CART',
-            DELETE_PRODUCT_FROM_CART: 'DELETE_PRODUCT_FROM_CART',
-            CLEAR_CART: 'CLEAR_CART'
+        ...(0,vuex__WEBPACK_IMPORTED_MODULE_2__.mapActions)({
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
         delItem(cartItem){
-            this.DELETE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'delete',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         increment(cartItem) {
-            this.ADD_PRODUCT_TO_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: cartItem,
+                url: `${this.urlCart}`,
+            });
         },
         remove(cartItem) {
-            this.REMOVE_PRODUCT_FROM_CART(cartItem);
+            this.BUILD_ACT_DESC({
+                action: 'remove',
+                data: cartItem,
+                url: `${this.urlCart}`
+            });
         },
         clear() {
-            this.CLEAR_CART();
+            this.BUILD_ACT_DESC({
+                action: 'clear',
+                data: null,
+                url: `${this.urlCart}`,
+            });
         },
         sendOrder(data) {
-            console.log(data)
+            data.items = this.cart;
+            this.BUILD_ACT_DESC({
+                action: 'submit',
+                data: data,
+                url: `${this.urlOrder}`
+            });
+        },
+        showOrderForm() {
+            this.isShowOrderForm = !this.isShowOrderForm;
         }
     },
     computed: {
-        ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapGetters)({
+        ...(0,vuex__WEBPACK_IMPORTED_MODULE_2__.mapGetters)({
             cart: 'cart/cart',
             cartTotalCost: 'cart/cartTotalCost',
             cartTotalCnt: 'cart/cartTotalCnt'
@@ -13402,11 +13488,6 @@ __webpack_require__.r(__webpack_exports__);
         ProductList: _components_ProductList_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
         MyInput: _components_UI_MyInput_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
         MyFilter: _components_MyFilter_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-    },
-    data() {
-        return {
-            
-        }
     },
     methods: {
         ...(0,vuex__WEBPACK_IMPORTED_MODULE_3__.mapActions)({
@@ -13478,15 +13559,19 @@ __webpack_require__.r(__webpack_exports__);
     },
     data(){
         return {
-            
+            urlCart: '/api/cart/'
         }
     },
     methods: {
         ...(0,vuex__WEBPACK_IMPORTED_MODULE_1__.mapActions)({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
         addItem(){
-            this.ADD_PRODUCT_TO_CART(this.product);
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: this.product,
+                url: `${this.urlCart}`,
+            });
         }
     },
     computed: {
@@ -13591,6 +13676,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyHeader_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyHeader_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./MyHeader.vue?vue&type=script&lang=js */ "./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyHeader.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./src/public/components/MyOrderForm.vue?vue&type=script&lang=js":
+/*!***********************************************************************!*\
+  !*** ./src/public/components/MyOrderForm.vue?vue&type=script&lang=js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyOrderForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyOrderForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./MyOrderForm.vue?vue&type=script&lang=js */ "./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=script&lang=js");
  
 
 /***/ }),
@@ -13799,6 +13900,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyHeader_vue_vue_type_template_id_39455a45__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyHeader_vue_vue_type_template_id_39455a45__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./MyHeader.vue?vue&type=template&id=39455a45 */ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyHeader.vue?vue&type=template&id=39455a45");
+
+
+/***/ }),
+
+/***/ "./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a":
+/*!*****************************************************************************!*\
+  !*** ./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyOrderForm_vue_vue_type_template_id_5e15832a__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_1_node_modules_vue_loader_dist_index_js_ruleSet_1_rules_5_use_0_MyOrderForm_vue_vue_type_template_id_5e15832a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!../../../node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./MyOrderForm.vue?vue&type=template&id=5e15832a */ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a");
 
 
 /***/ }),
@@ -14054,8 +14171,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     ($props.show)
       ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
           key: 0,
-          onClick: _cache[1] || (_cache[1] = (...args) => ($options.hideCartMini && $options.hideCartMini(...args))),
-          class: "cart__table"
+          class: "cart__table",
+          onClick: _cache[1] || (_cache[1] = (...args) => ($options.hide && $options.hide(...args)))
         }, [
           (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [
             ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.cartData, (cartItem) => {
@@ -14231,7 +14348,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_my_input = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("my-input")
   const _component_cart_mini = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("cart-mini")
 
-  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("header", _hoisted_1, [
     (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [
       (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [
         (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -14270,6 +14387,106 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       ])
     ])
   ]))
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[5].use[0]!./src/public/components/MyOrderForm.vue?vue&type=template&id=5e15832a ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.runtime.esm-bundler.js");
+
+
+const _hoisted_1 = { class: "shopform__item" }
+const _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Имя и Фамилия", -1 /* HOISTED */)
+const _hoisted_3 = { class: "shopform__item" }
+const _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Адрес", -1 /* HOISTED */)
+const _hoisted_5 = { class: "shopform__item" }
+const _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Контакты", -1 /* HOISTED */)
+const _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", { class: "buy-btn" }, [
+  /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", { type: "submit" }, "Отправить")
+], -1 /* HOISTED */)
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ($props.show)
+    ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+        key: 0,
+        class: "shopform shopform--flex",
+        onClick: _cache[8] || (_cache[8] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)((...args) => ($options.hide && $options.hide(...args)), ["stop"]))
+      }, [
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+          onClick: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(() => {}, ["stop"])),
+          onSubmit: _cache[7] || (_cache[7] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)((...args) => ($options.submitOrder && $options.submitOrder(...args)), ["prevent"]))
+        }, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [
+            _hoisted_2,
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (($data.userData.name) = $event)),
+              type: "text",
+              placeholder: "Имя",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.name]
+            ]),
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (($data.userData.surname) = $event)),
+              type: "text",
+              placeholder: "Фамилия",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.surname]
+            ])
+          ]),
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [
+            _hoisted_4,
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => (($data.userData.city) = $event)),
+              type: "text",
+              placeholder: "Город",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.city]
+            ]),
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[3] || (_cache[3] = $event => (($data.userData.addr) = $event)),
+              type: "text",
+              placeholder: "Улица Дом",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.addr]
+            ])
+          ]),
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [
+            _hoisted_6,
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[4] || (_cache[4] = $event => (($data.userData.phone) = $event)),
+              type: "tel",
+              placeholder: "Тел.",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.phone]
+            ]),
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+              "onUpdate:modelValue": _cache[5] || (_cache[5] = $event => (($data.userData.email) = $event)),
+              type: "email",
+              placeholder: "Электронная почта",
+              required: ""
+            }, null, 512 /* NEED_PATCH */), [
+              [vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.userData.email]
+            ])
+          ]),
+          _hoisted_7
+        ], 32 /* HYDRATE_EVENTS */)
+      ]))
+    : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)
 }
 
 /***/ }),
@@ -14467,38 +14684,49 @@ const _hoisted_7 = { class: "total-price" }
 const _hoisted_8 = { class: "cart__items-btns" }
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
+  const _component_my_order_form = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("my-order-form")
   const _component_cart_item = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("cart-item")
 
-  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [
-    _hoisted_2,
-    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [
-      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [
-          ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.cart, (cartItem) => {
-            return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_cart_item, {
-              cartItem: cartItem,
-              key: cartItem.id_product,
-              onDelete: $event => ($options.delItem(cartItem)),
-              onDecrement: $event => ($options.remove(cartItem)),
-              onIncrement: $event => ($options.increment(cartItem))
-            }, null, 8 /* PROPS */, ["cartItem", "onDelete", "onDecrement", "onIncrement"]))
-          }), 128 /* KEYED_FRAGMENT */)),
-          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [
-            (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, " Полная стоимость: " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.cartTotalCost) + " Р. ", 1 /* TEXT */)
-          ]),
-          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [
-            (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-              onClick: _cache[0] || (_cache[0] = $event => (_ctx.$router.push('/')))
-            }, "Продолжить покупки"),
-            (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-              onClick: _cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)((...args) => ($options.clear && $options.clear(...args)), ["stop"]))
-            }, "Отчистить корзину")
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_my_order_form, {
+      show: $data.isShowOrderForm,
+      "onUpdate:show": _cache[0] || (_cache[0] = $event => (($data.isShowOrderForm) = $event)),
+      cartData: _ctx.cart,
+      onSubmitOrder: $options.sendOrder
+    }, null, 8 /* PROPS */, ["show", "cartData", "onSubmitOrder"]),
+    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_1, [
+      _hoisted_2,
+      (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [
+        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [
+          (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [
+            ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.cart, (cartItem) => {
+              return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_cart_item, {
+                cartItem: cartItem,
+                key: cartItem.id_product,
+                onDelete: $event => ($options.delItem(cartItem)),
+                onDecrement: $event => ($options.remove(cartItem)),
+                onIncrement: $event => ($options.increment(cartItem))
+              }, null, 8 /* PROPS */, ["cartItem", "onDelete", "onDecrement", "onIncrement"]))
+            }), 128 /* KEYED_FRAGMENT */)),
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [
+              (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, " Полная стоимость: " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.cartTotalCost) + " Р. ", 1 /* TEXT */)
+            ]),
+            (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [
+              (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                onClick: _cache[1] || (_cache[1] = (...args) => ($options.showOrderForm && $options.showOrderForm(...args)))
+              }, "Оформить заказ"),
+              (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                onClick: _cache[2] || (_cache[2] = $event => (_ctx.$router.push('/')))
+              }, "Продолжить покупки"),
+              (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+                onClick: _cache[3] || (_cache[3] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)((...args) => ($options.clear && $options.clear(...args)), ["stop"]))
+              }, "Отчистить корзину")
+            ])
           ])
-        ]),
-        (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"shopform shopform--flex\">\r\n                    <h2>Форма заказа</h2>\r\n                    <my-order-form\r\n                        @prepOrder=\"sendOrder\"\r\n                    />\r\n                </div> ")
+        ])
       ])
     ])
-  ]))
+  ], 64 /* STABLE_FRAGMENT */))
 }
 
 /***/ }),
@@ -19869,15 +20097,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "apiModule": () => (/* binding */ apiModule)
 /* harmony export */ });
 const apiModule = {
-    state: () => ({
-
-    }),
-    getters: {
-
-    },
-    mutations: {
-
-    },
     actions: {
         GET_JSON({ satet, commit }, url = '') {
             return fetch(url)
@@ -19885,27 +20104,28 @@ const apiModule = {
                 .catch(e => console.log(e))
         },
         POST_JSON({ satet, commit }, data) {
-            return fetch('/api/cart', {
+            console.log(data)
+            return fetch(data.url, {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify(data.data)
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
         PUT_JSON({ satet, commit }, data) {
-            return fetch(`/api/cart/${data.id}`, {
+            return fetch(data.url + `${data.id}`, {
                 method: 'PUT',
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify(data.quantity)
+                body: JSON.stringify(data.data)
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
         DELETE_JSON({ satet, commit }, data) {
-            return fetch(`/api/cart/${data.id}`, {
+            return fetch(data.url + `${data.id}`, {
                 method: 'DELETE',
                 headers: {
                     "Content-Type": "application/json"
@@ -19913,8 +20133,8 @@ const apiModule = {
             }).then(result => result.json())
                 .catch(error => console.log(error))
         },
-        CLEAR_JSON({ satet, commit }, url = '/api/cart/') {
-            return fetch(url, {
+        CLEAR_JSON({ satet, commit }, data) {
+            return fetch(data.url, {
                 method: 'DELETE',
                 headers: {
                     "Content-Type": "application/json"
@@ -19942,7 +20162,6 @@ __webpack_require__.r(__webpack_exports__);
 const cartModule = {
     state: () => ({
         cartData: [],
-
     }),
     getters: {
         cart(state) {
@@ -20096,56 +20315,118 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-bundler.js");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-bundler.js");
 /* harmony import */ var _catalogModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./catalogModule */ "./src/public/store/catalogModule.js");
 /* harmony import */ var _cartModule__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cartModule */ "./src/public/store/cartModule.js");
 /* harmony import */ var _apiModule__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apiModule */ "./src/public/store/apiModule.js");
+/* harmony import */ var _userActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./userActions */ "./src/public/store/userActions.js");
 
 
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vuex__WEBPACK_IMPORTED_MODULE_3__.createStore)({
-    state: {
 
-    },
-    mutations: {
-
-    },
-    actions: {
-        ADD_PRODUCT_TO_CART({ dispatch, rootGetters }, item) {
-            let find = rootGetters['cart/cart'].find(el => el.id_product === item.id_product);
-            if (find) {
-                dispatch('cart/INCREMENT_ITEM', find, { root: true });
-                dispatch('api/PUT_JSON', { quantity: { quantity: 1 }, id: find.id_product }, { root: true });
-            } else {
-                dispatch('cart/ADD_TO_CART', item, { root: true });
-                dispatch('api/POST_JSON', rootGetters['cart/cart'][rootGetters['cart/cart'].length - 1], { root: true });
-            }
-        },
-        DELETE_PRODUCT_FROM_CART({ dispatch }, item) {
-            dispatch('cart/DELETE_FROM_CART', item, { root: true });
-            dispatch('api/DELETE_JSON', { id: item.id_product }, { root: true });
-        },
-        REMOVE_PRODUCT_FROM_CART({ dispatch }, item) {
-            if (item.quantity > 1) {
-                dispatch('cart/DECREMENT_ITEM', item, { root: true });
-                dispatch('api/PUT_JSON', { quantity: { quantity: -1 }, id: item.id_product }, { root: true });
-            } else {
-                dispatch('DELETE_PRODUCT_FROM_CART', item);
-            }
-        },
-        CLEAR_CART({ dispatch }) {
-            dispatch('cart/CLEAR_CART', null, { root: true });
-            dispatch('api/CLEAR_JSON', '/api/cart/', { root: true });
-        }
-    },
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vuex__WEBPACK_IMPORTED_MODULE_4__.createStore)({
     modules: {
         catalog: _catalogModule__WEBPACK_IMPORTED_MODULE_0__.catalogModule,
         cart: _cartModule__WEBPACK_IMPORTED_MODULE_1__.cartModule,
-        api: _apiModule__WEBPACK_IMPORTED_MODULE_2__.apiModule
+        api: _apiModule__WEBPACK_IMPORTED_MODULE_2__.apiModule,
+        userActions: _userActions__WEBPACK_IMPORTED_MODULE_3__.userActions,
     }
 }));
+
+/***/ }),
+
+/***/ "./src/public/store/userActions.js":
+/*!*****************************************!*\
+  !*** ./src/public/store/userActions.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "userActions": () => (/* binding */ userActions)
+/* harmony export */ });
+const userActions = {
+    state: () => ({
+        actDescription: {}
+    }),
+    getters: {
+        getActDescription(satet) {
+            return satet.actDescription;
+        }
+    },
+    mutations: {
+        setActDescription(state, obj) {
+            state.actDescription = obj;
+        }
+    },
+    actions: {
+        HANDLER({ dispatch, state, rootGetters }) {
+            switch (state.actDescription.action) {
+                case 'add':
+                    let find = rootGetters['cart/cart'].find(el => el.id_product === state.actDescription.data.id_product);
+                    if (find) {
+                        dispatch('cart/INCREMENT_ITEM', find, { root: true });
+                        dispatch('api/PUT_JSON', {
+                            url: state.actDescription.url,
+                            id: state.actDescription.data.id_product,
+                            data: { quantity: 1 }
+                        }, { root: true });
+                    } else {
+                        dispatch('cart/ADD_TO_CART', state.actDescription.data, { root: true });
+                        dispatch('api/POST_JSON', {
+                            url: state.actDescription.url,
+                            id: state.actDescription.data.id_product,
+                            data: rootGetters['cart/cart'][rootGetters['cart/cart'].length - 1]
+                        }, { root: true });
+                    }
+                    break;
+                case 'delete':
+                    dispatch('cart/DELETE_FROM_CART', state.actDescription.data, { root: true });
+                    dispatch('api/DELETE_JSON', {
+                        url: state.actDescription.url,
+                        id: state.actDescription.data.id_product,
+                    }, { root: true });
+                    break;
+                case 'remove':
+                    if (state.actDescription.data.quantity > 1) {
+                        dispatch('cart/DECREMENT_ITEM', state.actDescription.data, { root: true });
+                        dispatch('api/PUT_JSON', {
+                            url: state.actDescription.url,
+                            id: state.actDescription.data.id_product,
+                            data: { quantity: -1 }
+                        }, { root: true });
+                    } else {
+                        dispatch('cart/DELETE_FROM_CART', state.actDescription.data, { root: true });
+                        dispatch('api/DELETE_JSON', {
+                            url: state.actDescription.url,
+                            id: state.actDescription.data.id_product,
+                        }, { root: true });
+                    }
+                    break;
+                case 'clear':
+                    dispatch('cart/CLEAR_CART', null, { root: true });
+                    dispatch('api/CLEAR_JSON', { url: state.actDescription.url }, { root: true });
+                    break;
+                case 'submit':
+                    dispatch('api/POST_JSON', {
+                        url: state.actDescription.url,
+                        data: state.actDescription.data
+                    }, { root: true });
+                    break
+                default:
+                    console.log("Действие не найдено")
+            }
+        },
+        BUILD_ACT_DESC({ commit, dispatch }, obj) {
+            commit('setActDescription', obj);
+            dispatch('HANDLER');
+        },
+    },
+    namespaced: true
+}
 
 /***/ }),
 
@@ -20365,7 +20646,7 @@ module.exports = __webpack_require__.p + "asset/c6efde243e0e49e88578.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "asset/5a80511038ae13894efd.svg";
+module.exports = __webpack_require__.p + "asset/a9e6dc39ade293439205.svg";
 
 /***/ })
 

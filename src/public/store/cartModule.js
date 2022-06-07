@@ -1,7 +1,6 @@
 export const cartModule = {
     state: () => ({
         cartData: [],
-
     }),
     getters: {
         cart(state) {

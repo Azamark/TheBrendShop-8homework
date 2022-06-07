@@ -1,5 +1,6 @@
 .cart-item {
-    display: flex;
+    //display: flex;
+    @include flex(center, center);
     box-shadow: 15px 17px 20px rgba(0, 0, 0, 0.13);
     padding: 7px;
 

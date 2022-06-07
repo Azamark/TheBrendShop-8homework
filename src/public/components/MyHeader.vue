@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <header class="header">
         <div class="header__wrap container">
             <div class="header__left">
                 <div class="logo__link" @click="$router.push('/')">
@@ -34,7 +34,7 @@
                 </nav>
             </div>
         </div>
-    </div>
+    </header>
 </template>
 
 <script>
@@ -70,8 +70,5 @@ export default {
             cart: 'cart/cart'
         })
     },
-    mounted() {
-
-    }
 };
 </script>

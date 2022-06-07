@@ -24,19 +24,20 @@ export default {
     },
     data () {
         return {
-
+            urlCart: '/api/cart/'
         }
     },
     methods: {
         ...mapActions({
-            ADD_PRODUCT_TO_CART: 'ADD_PRODUCT_TO_CART'
+            BUILD_ACT_DESC: 'userActions/BUILD_ACT_DESC',
         }),
-        addItem(data){
-            this.ADD_PRODUCT_TO_CART(data);
+        addItem(prod){
+            this.BUILD_ACT_DESC({
+                action: 'add',
+                data: prod,
+                url: `${this.urlCart}`,
+            });
         }
     },
-    computed: {
-
-    }
 }
 </script>
